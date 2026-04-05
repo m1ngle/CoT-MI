@@ -1,0 +1,289 @@
+sentence,model,query_mode,prompt_style,shot,correct,condition
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,direct,zero,True,api_direct_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,cot,zero,True,api_cot_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,direct,few,False,api_direct_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,cot,few,True,api_cot_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,direct,zero,True,api_direct_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,cot,zero,True,api_cot_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,direct,few,True,api_direct_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,cot,few,True,api_cot_few
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,direct,zero,True,api_direct_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,cot,zero,True,api_cot_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,direct,few,True,api_direct_few
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,cot,few,True,api_cot_few
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,direct,zero,True,api_direct_zero
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,cot,zero,True,api_cot_zero
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,direct,few,True,api_direct_few
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,cot,few,True,api_cot_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,direct,zero,True,api_direct_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,direct,few,True,api_direct_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,cot,few,True,api_cot_few
+A small ring was the only thing found near the old bell.,gpt,api,direct,zero,True,api_direct_zero
+A small ring was the only thing found near the old bell.,gpt,api,cot,zero,True,api_cot_zero
+A small ring was the only thing found near the old bell.,gpt,api,direct,few,True,api_direct_few
+A small ring was the only thing found near the old bell.,gpt,api,cot,few,True,api_cot_few
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,direct,zero,True,api_direct_zero
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,cot,zero,True,api_cot_zero
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,direct,few,True,api_direct_few
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,cot,few,True,api_cot_few
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,direct,zero,True,api_direct_zero
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,cot,zero,True,api_cot_zero
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,direct,few,True,api_direct_few
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,cot,few,True,api_cot_few
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,direct,zero,True,api_direct_zero
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,cot,zero,True,api_cot_zero
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,direct,few,True,api_direct_few
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,cot,few,True,api_cot_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,direct,zero,True,api_direct_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,cot,zero,True,api_cot_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,direct,few,True,api_direct_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,cot,few,True,api_cot_few
+He placed the file on the table next to the metal tools.,gpt,api,direct,zero,False,api_direct_zero
+He placed the file on the table next to the metal tools.,gpt,api,cot,zero,True,api_cot_zero
+He placed the file on the table next to the metal tools.,gpt,api,direct,few,True,api_direct_few
+He placed the file on the table next to the metal tools.,gpt,api,cot,few,True,api_cot_few
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,direct,zero,True,api_direct_zero
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,cot,zero,True,api_cot_zero
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,direct,few,True,api_direct_few
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,cot,few,True,api_cot_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,direct,zero,False,api_direct_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,cot,zero,True,api_cot_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,direct,few,True,api_direct_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,cot,few,True,api_cot_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,direct,zero,True,api_direct_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,cot,zero,True,api_cot_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,direct,few,True,api_direct_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,cot,few,True,api_cot_few
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,direct,zero,False,api_direct_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,cot,zero,False,api_cot_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,direct,few,False,api_direct_few
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,cot,few,False,api_cot_few
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,direct,zero,True,api_direct_zero
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,cot,zero,True,api_cot_zero
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,direct,few,True,api_direct_few
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,cot,few,True,api_cot_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,direct,zero,False,api_direct_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,cot,zero,False,api_cot_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,direct,few,True,api_direct_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,cot,few,True,api_cot_few
+A small ring was the only thing found near the old bell.,claude,api,direct,zero,True,api_direct_zero
+A small ring was the only thing found near the old bell.,claude,api,cot,zero,True,api_cot_zero
+A small ring was the only thing found near the old bell.,claude,api,direct,few,True,api_direct_few
+A small ring was the only thing found near the old bell.,claude,api,cot,few,True,api_cot_few
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,direct,zero,True,api_direct_zero
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,cot,zero,True,api_cot_zero
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,direct,few,True,api_direct_few
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,cot,few,True,api_cot_few
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,direct,zero,True,api_direct_zero
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,cot,zero,True,api_cot_zero
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,direct,few,True,api_direct_few
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,cot,few,True,api_cot_few
+No one expected the tie to be the most talked-about part of the evening.,claude,api,direct,zero,True,api_direct_zero
+No one expected the tie to be the most talked-about part of the evening.,claude,api,cot,zero,True,api_cot_zero
+No one expected the tie to be the most talked-about part of the evening.,claude,api,direct,few,True,api_direct_few
+No one expected the tie to be the most talked-about part of the evening.,claude,api,cot,few,True,api_cot_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,direct,zero,True,api_direct_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,cot,zero,True,api_cot_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,direct,few,True,api_direct_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,cot,few,True,api_cot_few
+He placed the file on the table next to the metal tools.,claude,api,direct,zero,True,api_direct_zero
+He placed the file on the table next to the metal tools.,claude,api,cot,zero,True,api_cot_zero
+He placed the file on the table next to the metal tools.,claude,api,direct,few,True,api_direct_few
+He placed the file on the table next to the metal tools.,claude,api,cot,few,True,api_cot_few
+He hesitated to file while reviewing the materials spread across the table.,claude,api,direct,zero,True,api_direct_zero
+He hesitated to file while reviewing the materials spread across the table.,claude,api,cot,zero,True,api_cot_zero
+He hesitated to file while reviewing the materials spread across the table.,claude,api,direct,few,True,api_direct_few
+He hesitated to file while reviewing the materials spread across the table.,claude,api,cot,few,True,api_cot_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,direct,zero,True,api_direct_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,direct,few,True,api_direct_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,cot,few,True,api_cot_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,direct,zero,True,api_direct_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,direct,few,True,api_direct_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,cot,few,True,api_cot_few
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,direct,zero,True,api_direct_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,cot,zero,True,api_cot_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,direct,few,True,api_direct_few
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,cot,few,True,api_cot_few
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,direct,zero,True,api_direct_zero
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,cot,zero,True,api_cot_zero
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,direct,few,True,api_direct_few
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,cot,few,True,api_cot_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,direct,zero,True,api_direct_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,direct,few,True,api_direct_few
+A small ring was the only thing found near the old bell.,deepseek,api,direct,zero,True,api_direct_zero
+A small ring was the only thing found near the old bell.,deepseek,api,direct,few,True,api_direct_few
+A small ring was the only thing found near the old bell.,deepseek,api,cot,few,True,api_cot_few
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,direct,zero,True,api_direct_zero
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,cot,zero,True,api_cot_zero
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,direct,few,True,api_direct_few
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,cot,few,True,api_cot_few
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,direct,zero,True,api_direct_zero
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,cot,zero,True,api_cot_zero
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,direct,few,True,api_direct_few
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,cot,few,True,api_cot_few
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,direct,zero,True,api_direct_zero
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,direct,few,True,api_direct_few
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,cot,few,True,api_cot_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,direct,zero,True,api_direct_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,cot,zero,True,api_cot_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,direct,few,True,api_direct_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,cot,few,True,api_cot_few
+He placed the file on the table next to the metal tools.,deepseek,api,direct,zero,True,api_direct_zero
+He placed the file on the table next to the metal tools.,deepseek,api,cot,zero,True,api_cot_zero
+He placed the file on the table next to the metal tools.,deepseek,api,direct,few,True,api_direct_few
+He placed the file on the table next to the metal tools.,deepseek,api,cot,few,True,api_cot_few
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,direct,zero,False,api_direct_zero
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,cot,zero,False,api_cot_zero
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,direct,few,True,api_direct_few
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,cot,few,True,api_cot_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,direct,zero,True,manual_direct_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,cot,zero,True,manual_cot_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,direct,few,True,manual_direct_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,cot,few,True,manual_cot_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,direct,zero,True,manual_direct_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,cot,zero,True,manual_cot_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,direct,few,True,manual_direct_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,cot,few,True,manual_cot_few
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,direct,zero,True,manual_direct_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,cot,zero,True,manual_cot_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,direct,few,False,manual_direct_few
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,cot,few,True,manual_cot_few
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,direct,zero,True,manual_direct_zero
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,cot,zero,True,manual_cot_zero
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,direct,few,True,manual_direct_few
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,cot,few,True,manual_cot_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,direct,zero,False,manual_direct_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,cot,zero,False,manual_cot_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,direct,few,False,manual_direct_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,cot,few,False,manual_cot_few
+A small ring was the only thing found near the old bell.,gpt,manual,direct,zero,True,manual_direct_zero
+A small ring was the only thing found near the old bell.,gpt,manual,cot,zero,True,manual_cot_zero
+A small ring was the only thing found near the old bell.,gpt,manual,direct,few,True,manual_direct_few
+A small ring was the only thing found near the old bell.,gpt,manual,cot,few,True,manual_cot_few
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,direct,zero,True,manual_direct_zero
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,cot,zero,True,manual_cot_zero
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,direct,few,True,manual_direct_few
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,cot,few,True,manual_cot_few
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,direct,zero,True,manual_direct_zero
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,cot,zero,True,manual_cot_zero
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,direct,few,True,manual_direct_few
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,cot,few,True,manual_cot_few
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,direct,zero,True,manual_direct_zero
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,cot,zero,True,manual_cot_zero
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,direct,few,True,manual_direct_few
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,cot,few,True,manual_cot_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,direct,zero,True,manual_direct_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,cot,zero,True,manual_cot_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,direct,few,True,manual_direct_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,cot,few,True,manual_cot_few
+He placed the file on the table next to the metal tools.,gpt,manual,direct,zero,True,manual_direct_zero
+He placed the file on the table next to the metal tools.,gpt,manual,cot,zero,True,manual_cot_zero
+He placed the file on the table next to the metal tools.,gpt,manual,direct,few,True,manual_direct_few
+He placed the file on the table next to the metal tools.,gpt,manual,cot,few,True,manual_cot_few
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,direct,zero,True,manual_direct_zero
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,cot,zero,True,manual_cot_zero
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,direct,few,True,manual_direct_few
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,cot,few,True,manual_cot_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,manual,direct,zero,True,manual_direct_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,manual,cot,zero,True,manual_cot_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,manual,direct,few,True,manual_direct_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,manual,cot,few,True,manual_cot_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,manual,direct,zero,True,manual_direct_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,manual,cot,zero,True,manual_cot_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,manual,direct,few,True,manual_direct_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,manual,cot,few,True,manual_cot_few
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,manual,direct,zero,False,manual_direct_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,manual,cot,zero,False,manual_cot_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,manual,direct,few,True,manual_direct_few
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,manual,cot,few,False,manual_cot_few
+She realized halfway through the pitch that her delivery was far too fast.,claude,manual,direct,zero,True,manual_direct_zero
+She realized halfway through the pitch that her delivery was far too fast.,claude,manual,cot,zero,True,manual_cot_zero
+She realized halfway through the pitch that her delivery was far too fast.,claude,manual,direct,few,True,manual_direct_few
+She realized halfway through the pitch that her delivery was far too fast.,claude,manual,cot,few,True,manual_cot_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,manual,direct,zero,False,manual_direct_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,manual,cot,zero,False,manual_cot_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,manual,direct,few,True,manual_direct_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,manual,cot,few,True,manual_cot_few
+A small ring was the only thing found near the old bell.,claude,manual,direct,zero,True,manual_direct_zero
+A small ring was the only thing found near the old bell.,claude,manual,cot,zero,True,manual_cot_zero
+A small ring was the only thing found near the old bell.,claude,manual,direct,few,True,manual_direct_few
+A small ring was the only thing found near the old bell.,claude,manual,cot,few,True,manual_cot_few
+She noticed the ring fade as soon as the bell stopped echoing.,claude,manual,direct,zero,True,manual_direct_zero
+She noticed the ring fade as soon as the bell stopped echoing.,claude,manual,cot,zero,True,manual_cot_zero
+She noticed the ring fade as soon as the bell stopped echoing.,claude,manual,direct,few,True,manual_direct_few
+She noticed the ring fade as soon as the bell stopped echoing.,claude,manual,cot,few,True,manual_cot_few
+She noticed a faint ring left behind on the table after the guests departed.,claude,manual,direct,zero,True,manual_direct_zero
+She noticed a faint ring left behind on the table after the guests departed.,claude,manual,cot,zero,True,manual_cot_zero
+She noticed a faint ring left behind on the table after the guests departed.,claude,manual,direct,few,True,manual_direct_few
+She noticed a faint ring left behind on the table after the guests departed.,claude,manual,cot,few,True,manual_cot_few
+No one expected the tie to be the most talked-about part of the evening.,claude,manual,direct,zero,True,manual_direct_zero
+No one expected the tie to be the most talked-about part of the evening.,claude,manual,cot,zero,True,manual_cot_zero
+No one expected the tie to be the most talked-about part of the evening.,claude,manual,direct,few,True,manual_direct_few
+No one expected the tie to be the most talked-about part of the evening.,claude,manual,cot,few,True,manual_cot_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,manual,direct,zero,True,manual_direct_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,manual,cot,zero,True,manual_cot_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,manual,direct,few,True,manual_direct_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,manual,cot,few,True,manual_cot_few
+He placed the file on the table next to the metal tools.,claude,manual,direct,zero,True,manual_direct_zero
+He placed the file on the table next to the metal tools.,claude,manual,cot,zero,True,manual_cot_zero
+He placed the file on the table next to the metal tools.,claude,manual,direct,few,True,manual_direct_few
+He placed the file on the table next to the metal tools.,claude,manual,cot,few,True,manual_cot_few
+He hesitated to file while reviewing the materials spread across the table.,claude,manual,direct,zero,True,manual_direct_zero
+He hesitated to file while reviewing the materials spread across the table.,claude,manual,cot,zero,True,manual_cot_zero
+He hesitated to file while reviewing the materials spread across the table.,claude,manual,direct,few,True,manual_direct_few
+He hesitated to file while reviewing the materials spread across the table.,claude,manual,cot,few,True,manual_cot_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,manual,direct,zero,True,manual_direct_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,manual,cot,zero,True,manual_cot_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,manual,direct,few,True,manual_direct_few
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,manual,cot,few,True,manual_cot_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,manual,direct,zero,True,manual_direct_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,manual,cot,zero,True,manual_cot_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,manual,direct,few,True,manual_direct_few
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,manual,cot,few,True,manual_cot_few
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,manual,direct,zero,False,manual_direct_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,manual,cot,zero,False,manual_cot_zero
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,manual,direct,few,True,manual_direct_few
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,manual,cot,few,True,manual_cot_few
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,manual,direct,zero,True,manual_direct_zero
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,manual,cot,zero,True,manual_cot_zero
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,manual,direct,few,True,manual_direct_few
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,manual,cot,few,True,manual_cot_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,manual,direct,zero,False,manual_direct_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,manual,cot,zero,False,manual_cot_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,manual,direct,few,False,manual_direct_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,manual,cot,few,False,manual_cot_few
+A small ring was the only thing found near the old bell.,deepseek,manual,direct,zero,True,manual_direct_zero
+A small ring was the only thing found near the old bell.,deepseek,manual,cot,zero,False,manual_cot_zero
+A small ring was the only thing found near the old bell.,deepseek,manual,direct,few,False,manual_direct_few
+A small ring was the only thing found near the old bell.,deepseek,manual,cot,few,True,manual_cot_few
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,manual,direct,zero,True,manual_direct_zero
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,manual,cot,zero,True,manual_cot_zero
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,manual,direct,few,True,manual_direct_few
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,manual,cot,few,True,manual_cot_few
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,manual,direct,zero,True,manual_direct_zero
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,manual,cot,zero,True,manual_cot_zero
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,manual,direct,few,True,manual_direct_few
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,manual,cot,few,True,manual_cot_few
+No one expected the tie to be the most talked-about part of the evening.,deepseek,manual,direct,zero,True,manual_direct_zero
+No one expected the tie to be the most talked-about part of the evening.,deepseek,manual,cot,zero,True,manual_cot_zero
+No one expected the tie to be the most talked-about part of the evening.,deepseek,manual,direct,few,True,manual_direct_few
+No one expected the tie to be the most talked-about part of the evening.,deepseek,manual,cot,few,True,manual_cot_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,manual,direct,zero,True,manual_direct_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,manual,cot,zero,True,manual_cot_zero
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,manual,direct,few,True,manual_direct_few
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,manual,cot,few,True,manual_cot_few
+He placed the file on the table next to the metal tools.,deepseek,manual,direct,zero,True,manual_direct_zero
+He placed the file on the table next to the metal tools.,deepseek,manual,cot,zero,True,manual_cot_zero
+He placed the file on the table next to the metal tools.,deepseek,manual,direct,few,True,manual_direct_few
+He placed the file on the table next to the metal tools.,deepseek,manual,cot,few,True,manual_cot_few
+He hesitated to file while reviewing the materials spread across the table.,deepseek,manual,direct,zero,True,manual_direct_zero
+He hesitated to file while reviewing the materials spread across the table.,deepseek,manual,cot,zero,True,manual_cot_zero
+He hesitated to file while reviewing the materials spread across the table.,deepseek,manual,direct,few,False,manual_direct_few
+He hesitated to file while reviewing the materials spread across the table.,deepseek,manual,cot,few,True,manual_cot_few
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,cot,zero,False,api_cot_zero
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,cot,zero,True,api_cot_zero
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,cot,zero,True,api_cot_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,zero,True,api_cot_zero
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,few,True,api_cot_few
+A small ring was the only thing found near the old bell.,deepseek,api,cot,zero,True,api_cot_zero
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,cot,zero,True,api_cot_zero

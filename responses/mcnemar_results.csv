@@ -1,0 +1,49 @@
+model,comparison,condition_A,condition_B,both_correct,A_correct_B_wrong,A_wrong_B_correct,both_wrong,p_value
+claude,CoT vs Direct,api_cot_zero,api_direct_zero,48,0,0,0,1
+claude,CoT vs Direct,api_cot_few,api_direct_few,48,0,0,0,1
+claude,CoT vs Direct,manual_cot_zero,manual_direct_zero,47,1,0,0,1
+claude,CoT vs Direct,manual_cot_few,manual_direct_few,47,1,0,0,1
+claude,Few vs Zero,api_cot_few,api_cot_zero,48,0,0,0,1
+claude,Few vs Zero,api_direct_few,api_direct_zero,48,0,0,0,1
+claude,Few vs Zero,manual_cot_few,manual_cot_zero,48,0,0,0,1
+claude,Few vs Zero,manual_direct_few,manual_direct_zero,46,1,1,0,1
+claude,Manual vs API,manual_cot_zero,api_cot_zero,48,0,0,0,1
+claude,Manual vs API,manual_cot_few,api_cot_few,48,0,0,0,1
+claude,Manual vs API,manual_direct_zero,api_direct_zero,47,0,1,0,1
+claude,Manual vs API,manual_direct_few,api_direct_few,47,0,1,0,1
+claude,CoT Few vs CoT Zero,api_cot_few,api_cot_zero,48,0,0,0,1
+claude,CoT Few vs CoT Zero,manual_cot_few,manual_cot_zero,48,0,0,0,1
+claude,Direct Few vs Direct Zero,api_direct_few,api_direct_zero,48,0,0,0,1
+claude,Direct Few vs Direct Zero,manual_direct_few,manual_direct_zero,46,1,1,0,1
+deepseek,CoT vs Direct,api_cot_zero,api_direct_zero,47,1,0,0,1
+deepseek,CoT vs Direct,api_cot_few,api_direct_few,48,0,0,0,1
+deepseek,CoT vs Direct,manual_cot_zero,manual_direct_zero,47,0,0,1,1
+deepseek,CoT vs Direct,manual_cot_few,manual_direct_few,48,0,0,0,1
+deepseek,Few vs Zero,api_cot_few,api_cot_zero,48,0,0,0,1
+deepseek,Few vs Zero,api_direct_few,api_direct_zero,47,1,0,0,1
+deepseek,Few vs Zero,manual_cot_few,manual_cot_zero,47,1,0,0,1
+deepseek,Few vs Zero,manual_direct_few,manual_direct_zero,47,1,0,0,1
+deepseek,Manual vs API,manual_cot_zero,api_cot_zero,47,0,1,0,1
+deepseek,Manual vs API,manual_cot_few,api_cot_few,48,0,0,0,1
+deepseek,Manual vs API,manual_direct_zero,api_direct_zero,47,0,0,1,1
+deepseek,Manual vs API,manual_direct_few,api_direct_few,48,0,0,0,1
+deepseek,CoT Few vs CoT Zero,api_cot_few,api_cot_zero,48,0,0,0,1
+deepseek,CoT Few vs CoT Zero,manual_cot_few,manual_cot_zero,47,1,0,0,1
+deepseek,Direct Few vs Direct Zero,api_direct_few,api_direct_zero,47,1,0,0,1
+deepseek,Direct Few vs Direct Zero,manual_direct_few,manual_direct_zero,47,1,0,0,1
+gpt,CoT vs Direct,api_cot_zero,api_direct_zero,47,1,0,0,1
+gpt,CoT vs Direct,api_cot_few,api_direct_few,48,0,0,0,1
+gpt,CoT vs Direct,manual_cot_zero,manual_direct_zero,48,0,0,0,1
+gpt,CoT vs Direct,manual_cot_few,manual_direct_few,48,0,0,0,1
+gpt,Few vs Zero,api_cot_few,api_cot_zero,48,0,0,0,1
+gpt,Few vs Zero,api_direct_few,api_direct_zero,47,1,0,0,1
+gpt,Few vs Zero,manual_cot_few,manual_cot_zero,48,0,0,0,1
+gpt,Few vs Zero,manual_direct_few,manual_direct_zero,48,0,0,0,1
+gpt,Manual vs API,manual_cot_zero,api_cot_zero,48,0,0,0,1
+gpt,Manual vs API,manual_cot_few,api_cot_few,48,0,0,0,1
+gpt,Manual vs API,manual_direct_zero,api_direct_zero,47,1,0,0,1
+gpt,Manual vs API,manual_direct_few,api_direct_few,48,0,0,0,1
+gpt,CoT Few vs CoT Zero,api_cot_few,api_cot_zero,48,0,0,0,1
+gpt,CoT Few vs CoT Zero,manual_cot_few,manual_cot_zero,48,0,0,0,1
+gpt,Direct Few vs Direct Zero,api_direct_few,api_direct_zero,47,1,0,0,1
+gpt,Direct Few vs Direct Zero,manual_direct_few,manual_direct_zero,48,0,0,0,1

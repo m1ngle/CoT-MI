@@ -1,0 +1,2690 @@
+﻿response_id,timestamp_utc,model,temperature,max_output_tokens,prompt_id,run_id,target_word,sense_id,gold_sense,sense_family,context_type,few_shot_policy_id,query_mode,sentence,prompt_text,response_text,predicted_sense,correct
+run_1,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:","In this sentence, **“bank”** means **the land along the side of a river** (a riverbank).
+
+Even though “withdrawing cash” uses *bank* in a different sense (a financial institution), the phrase **“watching the water flow by”** makes it clear that *bank* here is the **edge of the water**.",,FALSE
+run_2,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:","“Bank” here means **the side of a river or stream**.
+
+Reasoning summary: the sentence includes two clues that point to different meanings of “bank.” “After withdrawing cash” suggests a financial bank, but “watching the water flow by” shows where they were sitting. Since they sat somewhere next to flowing water, “bank” in this sentence means **the land beside the water**.",,FALSE
+run_3,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""The bank approved his mortgage after reviewing his credit history.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""The floodwaters rose and spilled over the river bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",the land alongside a river,,FALSE
+run_4,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""The bank approved his mortgage after reviewing his credit history.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""The floodwaters rose and spilled over the river bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:","The sentence is ambiguous because it includes clues for both meanings of **bank**:
+
+* **“withdrawing cash”** points to **a financial institution**
+* **“watching the water flow by”** points to **the land alongside a river**
+
+Because they **sat on the bank** and were watching **water flow by**, the word **bank** here most naturally means **the land alongside a river**. The mention of withdrawing cash adds a wordplay effect, since **bank** can also mean a financial institution.
+
+**Answer: the land alongside a river**",,FALSE
+run_5,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:","It means the **side of a river or pond**.
+
+The clue is **“ducks nearby,”** which suggests a natural setting, not a financial bank.",,FALSE
+run_6,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:","Here’s a concise reasoning summary:
+
+The clue is “the sound of ducks nearby.” Ducks are usually found near water, so “bank” here most likely refers to the side of a river, pond, or lake, not a financial building.
+
+**Answer:** “Bank” means **the land along the edge of a body of water**.",,FALSE
+run_7,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She applied for a loan at the local bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She sat by the bank of the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",the land alongside a river,,FALSE
+run_8,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,manual,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She applied for a loan at the local bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She sat by the bank of the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:","The clue is **“the sound of ducks nearby.”** Ducks are typically found on or near water, so this scene most naturally takes place **by a river or lake**, not inside a financial building.
+
+**Meaning of “bank” here:** **the land alongside a river (or other body of water).**",,FALSE
+run_9,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,manual,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:","In that sentence, **“pitch”** means a **throw of the baseball**—specifically, the act of throwing the ball toward the batter (a *curveball* is one type of pitch).",,FALSE
+run_10,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,manual,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:","**Step-by-step reasoning**
+
+1. The sentence says: *“It was a curveball pitch …”*
+2. A **curveball** is a specific type of throw in sports (especially baseball) where the ball curves as it travels.
+3. The word **pitch** commonly goes with baseball and means the act of throwing the ball toward the batter.
+4. The rest of the sentence (“nobody … was prepared to handle”) supports the idea of an unexpected or tricky throw—like a curveball.
+
+**Meaning of “pitch” here:**
+**“Pitch” means a thrown ball (specifically, the act of throwing the ball in baseball).**",,FALSE
+run_11,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,manual,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The baseball player prepared to pitch the ball.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:","In the sentence **“It was a curveball pitch that nobody in the room was prepared to handle.”**, the word **“pitch”** means:
+
+**Answer: an unexpected problem, question, or situation (a sudden “throw” at someone, figuratively).**
+
+Even though *curveball* comes from baseball, here it’s being used **as a metaphor**—something surprising that catches people off guard.",,FALSE
+run_12,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,manual,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The baseball player prepared to pitch the ball.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:","1. Look at the context clues in the sentence: “curveball” is a type of throw in baseball.
+2. The sentence also mentions “nobody in the room was prepared to handle,” which treats the “curveball” like something unexpected—still based on the baseball idea.
+3. So “pitch” here is using the baseball meaning, not the sound/music meaning.
+
+**Meaning of “pitch” in this sentence:** **a throw of the ball in baseball (a delivered ball, specifically a curveball).**",,FALSE
+run_13,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:","In this sentence, **“pitch”** means **a presentation or persuasive talk**, usually meant to **sell an idea, product, or plan** (like a sales pitch or business pitch).",,FALSE
+run_14,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:","I can’t lay out my full internal reasoning step by step, but here’s a clear explanation of how we can tell from context:
+
+The sentence says she was “halfway through the **pitch**” and noticed her **delivery** (how she spoke) was too fast. Words like *delivery* and *halfway through* strongly suggest she was in the middle of speaking to an audience, presenting something in a structured way—often to persuade them.
+
+**Meaning of “pitch” here:** a **persuasive presentation or proposal**, especially a **sales/business pitch** (e.g., presenting an idea, product, or plan to convince someone).",,FALSE
+run_15,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:","In the sentence **“She realized halfway through the pitch that her delivery was far too fast,”** the word **“pitch”** means:
+
+**Answer: a persuasive talk or presentation (a “sales pitch”) meant to convince someone of an idea or product.**",,FALSE
+run_16,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:","Sure — let’s pin down which meaning of **pitch** fits.
+
+1. In the earlier examples, **pitch** meant either:
+
+   * **to throw** something (“pitch the stone”), or
+   * **the highness/lowness of a sound** (“a high pitch”).
+
+2. In the new sentence — *“She realized halfway through the pitch that her delivery was far too fast.”* — the key clue is **delivery**.
+
+   * “Delivery” is how you *present* something (your speaking pace, clarity, tone, etc.).
+   * You don’t normally talk about “delivery” when throwing something or matching a musical note.
+   * So **pitch** here is the kind you *give to an audience* — like a presentation trying to persuade or explain an idea.
+
+**Meaning of “pitch” in this sentence:**
+✅ **a spoken presentation, especially one meant to persuade (like a sales pitch or proposal).**",,FALSE
+run_17,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:","In the sentence **“He adjusted his pitch slightly, hoping the crowd would respond better.”**, the word **“pitch”** means **the tone or level of his voice**—how high or low it sounds (often how he’s speaking or presenting).",,FALSE
+run_18,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:","I can’t share step-by-step reasoning in detail, but I can explain the key language clues that lead to the meaning.
+
+* The phrase **“adjusted … slightly”** suggests he’s fine-tuning something he controls.
+* The goal **“hoping the crowd would respond better”** points to something that affects how an audience reacts in the moment.
+* With a **crowd** involved, “pitch” most naturally refers to a feature of **his voice** or **his delivery**, not (for example) a sports field or a sales proposal.
+
+**Meaning of “pitch” here:** the **highness or lowness of his voice** (his vocal tone).",,FALSE
+run_19,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:","In the sentence **“He adjusted his pitch slightly, hoping the crowd would respond better.”**, the word **“pitch”** most likely means:
+
+**Answer: the tone or style of the way someone speaks (how they present their voice/message to an audience)**
+
+So here, he’s tweaking *how* he’s speaking—maybe making his voice sound more excited, serious, friendly, loud, etc.—to get a better reaction.",,FALSE
+run_20,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,manual,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:","I can’t provide **step-by-step reasoning** the way you asked, but I *can* explain the idea clearly.
+
+In the sentence **“He adjusted his pitch slightly, hoping the crowd would respond better.”**, **pitch** most likely means:
+
+**👉 the tone or style of how he was speaking (his delivery), especially in a way meant to influence the audience.**
+
+Why: The clue is **“hoping the crowd would respond better.”** That suggests he’s changing *how* he presents himself—his speaking tone (and possibly how high/low his voice sounds) to get a better reaction.
+
+✅ **Answer:** **the tone/style of his speaking delivery (how he addressed the crowd)**",,FALSE
+run_21,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,manual,A small ring was the only thing found near the old bell.,"Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:","In the sentence **“A small ring was the only thing found near the old bell.”**, the word **“ring”** means **a small circular piece of metal (a band), like a finger ring or hoop**, not the sound a bell makes.",,FALSE
+run_22,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,manual,A small ring was the only thing found near the old bell.,"Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:","I can’t explain my reasoning **step by step**. But I *can* give a clear explanation of how the meaning is determined from context.
+
+In the sentence **“A small ring was the only thing found near the old bell.”**, the word **“ring”** most naturally means a **small circular piece of jewelry** (like a finger ring).
+
+Why: the phrase **“a small ring”** strongly suggests a physical object, and the sentence treats it as an item that was *found* near something. If “ring” meant a **sound** (the ringing of a bell), it wouldn’t typically be described as “small” or as a “thing found.”
+
+**Answer:** “Ring” means **a small circular band of metal (a piece of jewelry)**.",,FALSE
+run_23,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,manual,A small ring was the only thing found near the old bell.,"Sentence: ""The jeweler resized the ring to fit her hand.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the hammer striking metal filled the workshop.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:","In the sentence:
+
+**""A small ring was the only thing found near the old bell.""**
+
+The word **""ring""** most likely means:
+
+**Answer: a circular band (possibly a metal loop or jewelry item)**
+
+Here, *ring* refers to a small circular object — most likely a metal band — rather than a sound or a group of people.",,FALSE
+run_24,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,manual,A small ring was the only thing found near the old bell.,"Sentence: ""The jeweler resized the ring to fit her hand.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the hammer striking metal filled the workshop.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:","I can’t share step-by-step internal reasoning, but I can give a clear, concise explanation.
+
+In **“A small ring was the only thing found near the old bell.”** the clue **“near the old bell”** points to something connected with a bell. A “ring” can be a **sound** (like a bell’s ring), but the sentence says it was **“found”** and describes it as **“a small ring”**, which strongly suggests a **physical object** rather than a sound.
+
+**Answer:** **a small circular band/object (likely a piece of metal, like a ring-shaped item)**",,FALSE
+run_25,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,manual,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_26,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,manual,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_27,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,manual,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""A ring of trees surrounded the meadow.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_28,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,manual,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""A ring of trees surrounded the meadow.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_29,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,manual,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_30,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,manual,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_31,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,manual,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_32,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,manual,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_33,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,manual,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_34,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,manual,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_35,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,manual,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""She bought a silk tie for the formal event.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""He had to tie his shoes before leaving the house.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The game ended in a tie after overtime.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_36,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,manual,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""She bought a silk tie for the formal event.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""He had to tie his shoes before leaving the house.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The game ended in a tie after overtime.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_37,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,manual,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_38,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,manual,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_39,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,manual,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""The red tie matched his jacket perfectly.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""They tied the package with string to keep it closed.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The championship match resulted in a tie.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_40,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,manual,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""The red tie matched his jacket perfectly.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""They tied the package with string to keep it closed.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The championship match resulted in a tie.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_41,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_42,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_43,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""They plan to file the paperwork before the deadline.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""She grabbed a file from the toolbox to sharpen the blade.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_44,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""They plan to file the paperwork before the deadline.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""She grabbed a file from the toolbox to sharpen the blade.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_45,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_46,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_47,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""He will file his tax return tomorrow.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_48,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,manual,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""He will file his tax return tomorrow.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_49,,gpt-5.2,ui_default,ui_default,direct_zero_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,manual,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_50,,gpt-5.2,ui_default,ui_default,cot_zero_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,manual,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_51,,gpt-5.2,ui_default,ui_default,direct_few_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,manual,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""She decided to file a complaint with the city office.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_52,,gpt-5.2,ui_default,ui_default,cot_few_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,manual,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""She decided to file a complaint with the city office.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_1,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_2,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_3,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""The bank approved his mortgage after reviewing his credit history.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""The floodwaters rose and spilled over the river bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_4,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""The bank approved his mortgage after reviewing his credit history.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""The floodwaters rose and spilled over the river bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_5,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_6,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_7,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She applied for a loan at the local bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She sat by the bank of the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_8,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She applied for a loan at the local bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She sat by the bank of the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_9,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_10,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_11,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The baseball player prepared to pitch the ball.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_12,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The baseball player prepared to pitch the ball.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_13,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_14,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_15,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_16,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_17,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_18,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_19,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_20,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_21,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_22,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_23,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""The jeweler resized the ring to fit her hand.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the hammer striking metal filled the workshop.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_24,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""The jeweler resized the ring to fit her hand.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the hammer striking metal filled the workshop.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_25,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_26,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_27,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""A ring of trees surrounded the meadow.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_28,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""A ring of trees surrounded the meadow.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_29,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_30,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_31,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_32,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_33,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_34,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_35,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""She bought a silk tie for the formal event.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""He had to tie his shoes before leaving the house.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The game ended in a tie after overtime.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_36,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""She bought a silk tie for the formal event.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""He had to tie his shoes before leaving the house.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The game ended in a tie after overtime.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_37,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_38,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_39,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""The red tie matched his jacket perfectly.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""They tied the package with string to keep it closed.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The championship match resulted in a tie.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_40,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""The red tie matched his jacket perfectly.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""They tied the package with string to keep it closed.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The championship match resulted in a tie.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_41,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_42,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_43,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""They plan to file the paperwork before the deadline.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""She grabbed a file from the toolbox to sharpen the blade.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_44,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""They plan to file the paperwork before the deadline.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""She grabbed a file from the toolbox to sharpen the blade.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_45,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_46,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_47,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""He will file his tax return tomorrow.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_48,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""He will file his tax return tomorrow.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_49,,claude-sonnet-4-20250514,ui_default,ui_default,direct_zero_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_50,,claude-sonnet-4-20250514,ui_default,ui_default,cot_zero_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_51,,claude-sonnet-4-20250514,ui_default,ui_default,direct_few_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""She decided to file a complaint with the city office.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_52,,claude-sonnet-4-20250514,ui_default,ui_default,cot_few_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""She decided to file a complaint with the city office.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_1,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_2,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_3,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""The bank approved his mortgage after reviewing his credit history.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""The floodwaters rose and spilled over the river bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_4,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"They sat on the bank after withdrawing cash, watching the water flow by.","Sentence: ""The bank approved his mortgage after reviewing his credit history.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""The floodwaters rose and spilled over the river bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""They sat on the bank after withdrawing cash, watching the water flow by.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_5,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_6,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_7,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She applied for a loan at the local bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She sat by the bank of the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer:",,,FALSE
+run_8,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,bank,bank_river,riverbank,geographic,physical_environment,same_word_cross_sense,api,"The bank was quiet that morning, aside from the sound of ducks nearby.","Sentence: ""He deposited money in the bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She applied for a loan at the local bank.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: a financial institution
+
+Sentence: ""She sat by the bank of the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+Sentence: ""They ate on the grassy bank overlooking the river.""
+Question:
+In this sentence, what does the word ""bank"" mean?
+
+Answer: the land alongside a river
+
+
+Sentence: ""The bank was quiet that morning, aside from the sound of ducks nearby.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""bank"" means in this sentence.
+
+Answer:",,,FALSE
+run_9,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_10,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_11,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The baseball player prepared to pitch the ball.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_12,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,pitch,pitch_throw,physical_throw,physical_action,physical_motion,same_word_cross_sense,api,It was a curveball pitch that nobody in the room was prepared to handle.,"Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The baseball player prepared to pitch the ball.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""It was a curveball pitch that nobody in the room was prepared to handle.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_13,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_14,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_15,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_16,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,She realized halfway through the pitch that her delivery was far too fast.,"Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""She realized halfway through the pitch that her delivery was far too fast.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_17,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_18,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_19,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer:",,,FALSE
+run_20,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,pitch,pitch_sales,sales_communication,communication,business_communication,same_word_cross_sense,api,"He adjusted his pitch slightly, hoping the crowd would respond better.","Sentence: ""She stepped forward to pitch the stone into the lake.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He had to pitch the package over the fence.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: to throw something
+
+Sentence: ""He struggled to match the pitch of the note.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+Sentence: ""The violin produced a high pitch during the solo.""
+Question:
+In this sentence, what does the word ""pitch"" mean?
+
+Answer: the perceived highness or lowness of a sound
+
+
+Sentence: ""He adjusted his pitch slightly, hoping the crowd would respond better.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""pitch"" means in this sentence.
+
+Answer:",,,FALSE
+run_21,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_22,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_23,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""The jeweler resized the ring to fit her hand.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the hammer striking metal filled the workshop.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_24,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,ring,ring_jewelry,jewelry_object,physical_object,personal_adornment,same_word_cross_sense,api,A small ring was the only thing found near the old bell.,"Sentence: ""The jeweler resized the ring to fit her hand.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the hammer striking metal filled the workshop.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""A small ring was the only thing found near the old bell.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_25,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_26,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_27,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""A ring of trees surrounded the meadow.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_28,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,ring,ring_sound,auditory_signal,auditory_event,auditory_event,same_word_cross_sense,api,She noticed the ring fade as soon as the bell stopped echoing.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""A ring of trees surrounded the meadow.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed the ring fade as soon as the bell stopped echoing.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_29,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_30,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_31,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer:",,,FALSE
+run_32,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,ring,ring_shape,circular_form,spatial_form,spatial_structure,same_word_cross_sense,api,She noticed a faint ring left behind on the table after the guests departed.,"Sentence: ""She admired the diamond ring on her finger.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular band worn as jewelry
+
+Sentence: ""They formed a ring around the campfire.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a circular shape or formation
+
+Sentence: ""The ring of the church bell echoed across the town.""
+Question:
+In this sentence, what does the word ""ring"" mean?
+
+Answer: a resonant sound
+
+
+Sentence: ""She noticed a faint ring left behind on the table after the guests departed.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""ring"" means in this sentence.
+
+Answer:",,,FALSE
+run_33,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_34,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_35,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""She bought a silk tie for the formal event.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""He had to tie his shoes before leaving the house.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The game ended in a tie after overtime.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_36,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,tie,tie_apparel,clothing_accessory,physical_object,social_formal,same_word_cross_sense,api,No one expected the tie to be the most talked-about part of the evening.,"Sentence: ""She bought a silk tie for the formal event.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""He had to tie his shoes before leaving the house.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The game ended in a tie after overtime.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""No one expected the tie to be the most talked-about part of the evening.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_37,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_38,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_39,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""The red tie matched his jacket perfectly.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""They tied the package with string to keep it closed.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The championship match resulted in a tie.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer:",,,FALSE
+run_40,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,tie,tie_bind,bind_together,physical_action,physical_binding,same_word_cross_sense,api,"Without a secure tie, the boxes used in the presentation would likely fall apart.","Sentence: ""The red tie matched his jacket perfectly.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a piece of clothing worn around the neck
+
+Sentence: ""They tied the package with string to keep it closed.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: to fasten or secure with a knot
+
+Sentence: ""The championship match resulted in a tie.""
+Question:
+In this sentence, what does the word ""tie"" mean?
+
+Answer: a contest with equal scores
+
+
+Sentence: ""Without a secure tie, the boxes used in the presentation would likely fall apart.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""tie"" means in this sentence.
+
+Answer:",,,FALSE
+run_41,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_42,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_43,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""They plan to file the paperwork before the deadline.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""She grabbed a file from the toolbox to sharpen the blade.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_44,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""They plan to file the paperwork before the deadline.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""She grabbed a file from the toolbox to sharpen the blade.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_45,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_46,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_47,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""He will file his tax return tomorrow.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_48,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,file,file_tool,smoothing tool,physical_object,physical_tool_use,same_word_cross_sense,api,He placed the file on the table next to the metal tools.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""He will file his tax return tomorrow.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He placed the file on the table next to the metal tools.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_49,,deepseek-chat,ui_default,ui_default,direct_zero_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_50,,deepseek-chat,ui_default,ui_default,cot_zero_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
+run_51,,deepseek-chat,ui_default,ui_default,direct_few_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""She decided to file a complaint with the city office.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer:",,,FALSE
+run_52,,deepseek-chat,ui_default,ui_default,cot_few_v1,1,file,file_process,official submission,administrative_action,administrative_action,same_word_cross_sense,api,He hesitated to file while reviewing the materials spread across the table.,"Sentence: ""The lawyer pulled the case file from the cabinet.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a collection of stored information
+
+Sentence: ""She decided to file a complaint with the city office.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: to officially submit or record something
+
+Sentence: ""The mechanic ran the file along the surface to remove burrs.""
+Question:
+In this sentence, what does the word ""file"" mean?
+
+Answer: a tool used for smoothing or shaping material
+
+
+Sentence: ""He hesitated to file while reviewing the materials spread across the table.""
+
+Question:
+Explain your reasoning step by step, then state what the word ""file"" means in this sentence.
+
+Answer:",,,FALSE
