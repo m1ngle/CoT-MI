@@ -1,0 +1,145 @@
+sentence,model,api_cot_few,api_cot_zero,api_direct_few,api_direct_zero,manual_cot_few,manual_cot_zero,manual_direct_few,manual_direct_zero
+A dark ring appeared around the stain after it dried.,claude,True,True,True,True,True,True,True,True
+A dark ring appeared around the stain after it dried.,deepseek,True,True,True,True,True,True,True,True
+A dark ring appeared around the stain after it dried.,gpt,True,True,True,True,True,True,True,True
+A ring of stones surrounded the fire pit.,claude,True,True,True,True,True,True,True,True
+A ring of stones surrounded the fire pit.,deepseek,True,True,True,True,True,True,True,True
+A ring of stones surrounded the fire pit.,gpt,True,True,True,True,True,True,True,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,claude,True,True,True,True,True,True,True,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,deepseek,True,True,True,True,True,True,True,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,gpt,True,True,True,True,True,True,True,True
+A sudden ring echoed through the quiet hallway.,claude,True,True,True,True,True,True,True,True
+A sudden ring echoed through the quiet hallway.,deepseek,True,True,True,True,True,True,True,True
+A sudden ring echoed through the quiet hallway.,gpt,True,True,True,True,True,True,True,True
+"After feedback from mentors, the team revised the pitch before presenting again.",claude,True,True,True,True,True,True,True,True
+"After feedback from mentors, the team revised the pitch before presenting again.",deepseek,True,True,True,True,True,True,True,True
+"After feedback from mentors, the team revised the pitch before presenting again.",gpt,True,True,True,True,True,True,True,True
+"After hours of debate, the vote produced a tie.",claude,True,True,True,True,True,True,True,True
+"After hours of debate, the vote produced a tie.",deepseek,True,True,True,True,True,True,True,True
+"After hours of debate, the vote produced a tie.",gpt,True,True,True,True,True,True,True,True
+Both candidates finished the election in a tie.,claude,True,True,True,True,True,True,True,True
+Both candidates finished the election in a tie.,deepseek,True,True,True,True,True,True,True,True
+Both candidates finished the election in a tie.,gpt,True,True,True,True,True,True,True,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",claude,True,True,True,True,True,True,True,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",deepseek,True,True,True,True,True,True,True,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",gpt,True,True,True,True,True,True,True,True
+Each employee has a file stored in the archive room.,claude,True,True,True,True,True,True,True,True
+Each employee has a file stored in the archive room.,deepseek,True,True,True,True,True,True,True,True
+Each employee has a file stored in the archive room.,gpt,True,True,True,True,True,True,True,True
+"Every Friday, I deposit my paycheck in the bank.",claude,True,True,True,True,True,True,True,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,True,True,True,True,True,True,True,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,True,True,True,True,True,True,True,True
+Everyone turned at the ring that signaled the end of class.,claude,True,True,True,True,True,True,True,True
+Everyone turned at the ring that signaled the end of class.,deepseek,True,True,True,True,True,True,True,True
+Everyone turned at the ring that signaled the end of class.,gpt,True,True,True,True,True,True,True,True
+Extreme flooding has caused the bank to erode over time.,claude,True,True,True,True,True,True,True,True
+Extreme flooding has caused the bank to erode over time.,deepseek,True,True,True,True,True,True,True,True
+Extreme flooding has caused the bank to erode over time.,gpt,True,True,True,True,True,True,True,True
+Federal law insures your money at the bank.,claude,True,True,True,True,True,True,True,True
+Federal law insures your money at the bank.,deepseek,True,True,True,True,True,True,True,True
+Federal law insures your money at the bank.,gpt,True,True,True,True,True,True,True,True
+He adjusted his grip before releasing the pitch toward home plate.,claude,True,True,True,True,True,True,True,True
+He adjusted his grip before releasing the pitch toward home plate.,deepseek,True,True,True,True,True,True,True,True
+He adjusted his grip before releasing the pitch toward home plate.,gpt,True,True,True,True,True,True,True,True
+He learned how to tie the knot securely.,claude,True,True,True,True,True,True,True,True
+He learned how to tie the knot securely.,deepseek,True,True,True,True,True,True,True,True
+He learned how to tie the knot securely.,gpt,True,True,True,True,True,True,True,True
+He noticed the ring only after the light caught the stone.,claude,True,True,True,True,True,True,True,True
+He noticed the ring only after the light caught the stone.,deepseek,True,True,True,True,True,True,True,True
+He noticed the ring only after the light caught the stone.,gpt,True,True,True,True,True,True,True,True
+He plans to file his tax return tomorrow.,claude,True,True,True,True,True,True,True,True
+He plans to file his tax return tomorrow.,deepseek,True,True,True,True,True,True,True,True
+He plans to file his tax return tomorrow.,gpt,True,True,True,True,True,True,True,True
+He straightened his tie before walking into the interview.,claude,True,True,True,True,True,True,True,True
+He straightened his tie before walking into the interview.,deepseek,True,True,True,True,True,True,True,True
+He straightened his tie before walking into the interview.,gpt,True,True,True,True,True,True,True,True
+He used a file to smooth the sharp edge of the metal.,claude,True,True,True,True,True,True,True,True
+He used a file to smooth the sharp edge of the metal.,deepseek,True,True,True,True,True,True,True,True
+He used a file to smooth the sharp edge of the metal.,gpt,True,True,True,True,True,True,True,True
+"His pitch veered slightly to the left, missing the target by inches.",claude,True,True,True,True,True,True,True,True
+"His pitch veered slightly to the left, missing the target by inches.",deepseek,True,True,True,True,True,True,True,True
+"His pitch veered slightly to the left, missing the target by inches.",gpt,True,True,True,True,True,True,True,True
+His tie was loosened after the long ceremony ended.,claude,True,True,True,True,True,True,True,True
+His tie was loosened after the long ceremony ended.,deepseek,True,True,True,True,True,True,True,True
+His tie was loosened after the long ceremony ended.,gpt,True,True,True,True,True,True,True,True
+I went to the bank to apply for a loan.,claude,True,True,True,True,True,True,True,True
+I went to the bank to apply for a loan.,deepseek,True,True,True,True,True,True,True,True
+I went to the bank to apply for a loan.,gpt,True,True,True,True,True,True,True,True
+Investors listened carefully as the founder began his pitch.,claude,True,True,True,True,True,True,True,True
+Investors listened carefully as the founder began his pitch.,deepseek,True,True,True,True,True,True,True,True
+Investors listened carefully as the founder began his pitch.,gpt,True,True,True,True,True,True,True,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,True,True,True,True,True,True,False,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,True,True,True,True,True,True,True,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,True,True,True,True,True,True,True,True
+She bought a new tie as a gift for her father.,claude,True,True,True,True,True,True,True,True
+She bought a new tie as a gift for her father.,deepseek,True,True,True,True,True,True,True,True
+She bought a new tie as a gift for her father.,gpt,True,True,True,True,True,True,True,True
+She decided to file a complaint with the city office.,claude,True,True,True,True,True,True,True,True
+She decided to file a complaint with the city office.,deepseek,True,True,True,True,True,True,True,True
+She decided to file a complaint with the city office.,gpt,True,True,True,True,True,True,True,True
+She opened the file on her computer to review the report.,claude,True,True,True,True,True,True,True,True
+She opened the file on her computer to review the report.,deepseek,True,True,True,True,True,True,True,True
+She opened the file on her computer to review the report.,gpt,True,True,True,True,True,True,True,True
+She paused when she heard a ring coming from the phone.,claude,True,True,True,True,True,True,True,True
+She paused when she heard a ring coming from the phone.,deepseek,True,True,True,True,True,True,True,True
+She paused when she heard a ring coming from the phone.,gpt,True,True,True,True,True,True,True,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",claude,True,True,True,True,True,True,True,False
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",deepseek,True,True,True,False,True,False,True,False
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",gpt,True,True,True,False,True,True,True,True
+She ran the file across the surface until it was smooth.,claude,True,True,True,True,True,True,True,True
+She ran the file across the surface until it was smooth.,deepseek,True,True,True,True,True,True,True,True
+She ran the file across the surface until it was smooth.,gpt,True,True,True,True,True,True,True,True
+She slipped the ring onto her finger before leaving the house.,claude,True,True,True,True,True,True,True,True
+She slipped the ring onto her finger before leaving the house.,deepseek,True,True,True,True,True,True,True,True
+She slipped the ring onto her finger before leaving the house.,gpt,True,True,True,True,True,True,True,True
+She used a rope to tie the boxes together.,claude,True,True,True,True,True,True,True,True
+She used a rope to tie the boxes together.,deepseek,True,True,True,True,True,True,True,True
+She used a rope to tie the boxes together.,gpt,True,True,True,True,True,True,True,True
+The antique ring was displayed under glass at the museum.,claude,True,True,True,True,True,True,True,True
+The antique ring was displayed under glass at the museum.,deepseek,True,True,True,True,True,True,True,True
+The antique ring was displayed under glass at the museum.,gpt,True,True,True,True,True,True,True,True
+The bank teller handed me my change.,claude,True,True,True,True,True,True,True,True
+The bank teller handed me my change.,deepseek,True,True,True,True,True,True,True,True
+The bank teller handed me my change.,gpt,True,True,True,True,True,True,True,True
+The final score resulted in a tie between the teams.,claude,True,True,True,True,True,True,True,True
+The final score resulted in a tie between the teams.,deepseek,True,True,True,True,True,True,True,True
+The final score resulted in a tie between the teams.,gpt,True,True,True,True,True,True,True,True
+The fisherman sat quietly on the bank watching the water.,claude,True,True,True,True,True,True,True,True
+The fisherman sat quietly on the bank watching the water.,deepseek,True,True,True,True,True,True,True,True
+The fisherman sat quietly on the bank watching the water.,gpt,True,True,True,True,True,True,True,True
+The game ended in a tie after overtime.,claude,True,True,True,True,True,True,True,True
+The game ended in a tie after overtime.,deepseek,True,True,True,True,True,True,True,True
+The game ended in a tie after overtime.,gpt,True,True,True,True,True,True,True,True
+The instructions explained how to tie the cables safely.,claude,True,True,True,True,True,True,True,True
+The instructions explained how to tie the cables safely.,deepseek,True,True,True,True,True,True,True,True
+The instructions explained how to tie the cables safely.,gpt,True,True,True,True,True,True,True,True
+The lawyer pulled the case file from the cabinet.,claude,True,True,True,True,True,True,True,True
+The lawyer pulled the case file from the cabinet.,deepseek,True,True,True,True,True,True,True,True
+The lawyer pulled the case file from the cabinet.,gpt,True,True,True,True,True,True,True,True
+The mechanic reached for a file to remove the burrs.,claude,True,True,True,True,True,True,True,True
+The mechanic reached for a file to remove the burrs.,deepseek,True,True,True,True,True,True,True,True
+The mechanic reached for a file to remove the burrs.,gpt,True,True,True,True,True,True,True,True
+The planet was encircled by a faint ring of dust.,claude,True,True,True,True,True,True,True,True
+The planet was encircled by a faint ring of dust.,deepseek,True,True,True,True,True,True,True,True
+The planet was encircled by a faint ring of dust.,gpt,True,True,True,True,True,True,True,True
+The ring had been passed down through several generations.,claude,True,True,True,True,True,True,True,True
+The ring had been passed down through several generations.,deepseek,True,True,True,True,True,True,True,True
+The ring had been passed down through several generations.,gpt,True,True,True,True,True,True,True,True
+The sharp ring cut through the noise of the crowd.,claude,True,True,True,True,True,True,True,True
+The sharp ring cut through the noise of the crowd.,deepseek,True,True,True,True,True,True,True,True
+The sharp ring cut through the noise of the crowd.,gpt,True,True,True,True,True,True,True,True
+The silk tie matched the jacket better than the previous one.,claude,True,True,True,True,True,True,True,True
+The silk tie matched the jacket better than the previous one.,deepseek,True,True,True,True,True,True,True,True
+The silk tie matched the jacket better than the previous one.,gpt,True,True,True,True,True,True,True,True
+The startup refined its pitch to better explain the value of the product.,claude,True,True,True,True,True,True,True,True
+The startup refined its pitch to better explain the value of the product.,deepseek,True,True,True,True,True,True,True,True
+The startup refined its pitch to better explain the value of the product.,gpt,True,True,True,True,True,True,True,True
+The trees formed a ring around the clearing.,claude,True,True,True,True,True,True,True,True
+The trees formed a ring around the clearing.,deepseek,True,True,True,True,True,True,True,True
+The trees formed a ring around the clearing.,gpt,True,True,True,True,True,True,True,True
+They will file the paperwork before the deadline.,claude,True,True,True,True,True,True,True,True
+They will file the paperwork before the deadline.,deepseek,True,True,True,True,True,True,True,True
+They will file the paperwork before the deadline.,gpt,True,True,True,True,True,True,True,True
+They worked together to tie the fence posts in place.,claude,True,True,True,True,True,True,True,True
+They worked together to tie the fence posts in place.,deepseek,True,True,True,True,True,True,True,True
+They worked together to tie the fence posts in place.,gpt,True,True,True,True,True,True,True,True
