@@ -1,0 +1,13 @@
+[  
+  {
+    "prompt_id": "pitch_communication_02",
+    "target_word": "pitch",
+    "sense_id": "pitch_sales",
+    "gold_sense": "sales_communication",
+    "sense_family": "communication",
+    "sentence": "He adjusted his pitch slightly, hoping the crowd would respond better.",
+    "context_type": "business_communication",
+    "context_length": 11,
+    "context_length_tokens": 13
+  }
+]
