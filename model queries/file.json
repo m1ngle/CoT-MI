@@ -1,0 +1,101 @@
+[
+  {
+    "prompt_id": "file_tool_01",
+    "target_word": "file",
+    "sense_id": "file_tool",
+    "gold_sense": "smoothing tool",
+    "sense_family": "physical_object",
+    "sentence": "He used a file to smooth the sharp edge of the metal.",
+    "context_type": "physical_tool_use",
+    "context_length": 11,
+    "context_length_tokens": 13
+  },
+  {
+    "prompt_id": "file_tool_02",
+    "target_word": "file",
+    "sense_id": "file_tool",
+    "gold_sense": "smoothing tool",
+    "sense_family": "physical_object",
+    "sentence": "The mechanic reached for a file to remove the burrs.",
+    "context_type": "physical_tool_use",
+    "context_length": 11,
+    "context_length_tokens": 13
+  },
+  {
+    "prompt_id": "file_tool_03",
+    "target_word": "file",
+    "sense_id": "file_tool",
+    "gold_sense": "smoothing tool",
+    "sense_family": "physical_object",
+    "sentence": "She ran the file across the surface until it was smooth.",
+    "context_type": "physical_tool_use",
+    "context_length": 12,
+    "context_length_tokens": 14
+  },
+  {
+    "prompt_id": "file_process_01",
+    "target_word": "file",
+    "sense_id": "file_process",
+    "gold_sense": "official submission",
+    "sense_family": "administrative_action",
+    "sentence": "She decided to file a complaint with the city office.",
+    "context_type": "administrative_action",
+    "context_length": 12,
+    "context_length_tokens": 14
+  },
+  {
+    "prompt_id": "file_process_02",
+    "target_word": "file",
+    "sense_id": "file_process",
+    "gold_sense": "official submission",
+    "sense_family": "administrative_action",
+    "sentence": "They will file the paperwork before the deadline.",
+    "context_type": "administrative_action",
+    "context_length": 9,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "file_process_03",
+    "target_word": "file",
+    "sense_id": "file_process",
+    "gold_sense": "official submission",
+    "sense_family": "administrative_action",
+    "sentence": "He plans to file his tax return tomorrow.",
+    "context_type": "administrative_action",
+    "context_length": 9,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "file_document_01",
+    "target_word": "file",
+    "sense_id": "file_document",
+    "gold_sense": "stored document",
+    "sense_family": "record",
+    "sentence": "She opened the file on her computer to review the report.",
+    "context_type": "digital_record",
+    "context_length": 13,
+    "context_length_tokens": 15
+  },
+  {
+    "prompt_id": "file_document_02",
+    "target_word": "file",
+    "sense_id": "file_document",
+    "gold_sense": "stored document",
+    "sense_family": "record",
+    "sentence": "The lawyer pulled the case file from the cabinet.",
+    "context_type": "physical_record",
+    "context_length": 10,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "file_document_03",
+    "target_word": "file",
+    "sense_id": "file_document",
+    "gold_sense": "stored document",
+    "sense_family": "record",
+    "sentence": "Each employee has a file stored in the archive room.",
+    "context_type": "physical_record",
+    "context_length": 11,
+    "context_length_tokens": 13
+  }
+]
