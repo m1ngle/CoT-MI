@@ -1,0 +1,4 @@
+# claude_key.py
+config_data = {
+    "key":"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"
+    }
