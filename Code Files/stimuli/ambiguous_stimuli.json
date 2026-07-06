@@ -1,0 +1,145 @@
+[
+  {
+    "prompt_id": "bank_river_01",
+    "target_word": "bank",
+    "sense_id": "bank_river",
+    "gold_sense": "riverbank",
+    "sense_family": "geographic",
+    "sentence": "They sat on the bank after withdrawing cash, watching the water flow by.",
+    "context_type": "physical_environment",
+    "context_length": 13,
+    "context_length_tokens": 15
+  },
+  {
+    "prompt_id": "bank_river_02",
+    "target_word": "bank",
+    "sense_id": "bank_river",
+    "gold_sense": "riverbank",
+    "sense_family": "geographic",
+    "sentence": "The bank was quiet that morning, aside from the sound of ducks nearby.",
+    "context_type": "physical_environment",
+    "context_length": 13,
+    "context_length_tokens": 15
+  },
+  {
+    "prompt_id": "pitch_throw_01",
+    "target_word": "pitch",
+    "sense_id": "pitch_throw",
+    "gold_sense": "physical_throw",
+    "sense_family": "physical_action",
+    "sentence": "It was a curveball pitch that nobody in the room was prepared to handle.",
+    "context_type": "physical_motion",
+    "context_length": 14,
+    "context_length_tokens": 16
+  },
+  {
+    "prompt_id": "pitch_communication_01",
+    "target_word": "pitch",
+    "sense_id": "pitch_sales",
+    "gold_sense": "sales_communication",
+    "sense_family": "communication",
+    "sentence": "She realized halfway through the pitch that her delivery was far too fast.",
+    "context_type": "business_communication",
+    "context_length": 13,
+    "context_length_tokens": 14
+  },
+  {
+    "prompt_id": "pitch_communication_02",
+    "target_word": "pitch",
+    "sense_id": "pitch_sales",
+    "gold_sense": "sales_communication",
+    "sense_family": "communication",
+    "sentence": "He adjusted his pitch slightly, hoping the crowd would respond better.",
+    "context_type": "business_communication",
+    "context_length": 11,
+    "context_length_tokens": 13
+  },
+  {
+    "prompt_id": "ring_jewelry_01",
+    "target_word": "ring",
+    "sense_id": "ring_jewelry",
+    "gold_sense": "jewelry_object",
+    "sense_family": "physical_object",
+    "sentence": "A small ring was the only thing found near the old bell.",
+    "context_type": "personal_adornment",
+    "context_length": 12,
+    "context_length_tokens": 13
+  },
+  {
+    "prompt_id": "ring_sound_01",
+    "target_word": "ring",
+    "sense_id": "ring_sound",
+    "gold_sense": "auditory_signal",
+    "sense_family": "auditory_event",
+    "sentence": "She noticed the ring fade as soon as the bell stopped echoing.",
+    "context_type": "auditory_event",
+    "context_length": 12,
+    "context_length_tokens": 13
+  },
+  {
+    "prompt_id": "ring_shape_01",
+    "target_word": "ring",
+    "sense_id": "ring_shape",
+    "gold_sense": "circular_form",
+    "sense_family": "spatial_form",
+    "sentence": "She noticed a faint ring left behind on the table after the guests departed.",
+    "context_type": "spatial_structure",
+    "context_length": 14,
+    "context_length_tokens": 15
+  },
+  {
+    "prompt_id": "tie_apparel_01",
+    "target_word": "tie",
+    "sense_id": "tie_apparel",
+    "gold_sense": "clothing_accessory",
+    "sense_family": "physical_object",
+    "sentence": "No one expected the tie to be the most talked-about part of the evening.",
+    "context_type": "social_formal",
+    "context_length": 14,
+    "context_length_tokens": 16
+  },
+  {
+    "prompt_id": "tie_bind_01",
+    "target_word": "tie",
+    "sense_id": "tie_bind",
+    "gold_sense": "bind_together",
+    "sense_family": "physical_action",
+    "sentence": "Without a secure tie, the boxes used in the presentation would likely fall apart.",
+    "context_type": "physical_binding",
+    "context_length": 14,
+    "context_length_tokens": 16
+  },
+  {
+    "prompt_id": "file_tool_01",
+    "target_word": "file",
+    "sense_id": "file_tool",
+    "gold_sense": "smoothing tool",
+    "sense_family": "physical_object",
+    "sentence": "He placed the file on the table next to the metal tools.",
+    "context_type": "physical_tool_use",
+    "context_length": 12,
+    "context_length_tokens": 13
+  },
+  {
+    "prompt_id": "file_tool_02",
+    "target_word": "file",
+    "sense_id": "file_tool",
+    "gold_sense": "smoothing tool",
+    "sense_family": "physical_object",
+    "sentence": "He placed the file on the table next to the metal tools.",
+    "context_type": "physical_tool_use",
+    "context_length": 12,
+    "context_length_tokens": 13
+  },
+  {
+    "prompt_id": "file_process_01",
+    "target_word": "file",
+    "sense_id": "file_process",
+    "gold_sense": "official submission",
+    "sense_family": "administrative_action",
+    "sentence": "He hesitated to file while reviewing the materials spread across the table.",
+    "context_type": "administrative_action",
+    "context_length": 12,
+    "context_length_tokens": 14
+  }
+]

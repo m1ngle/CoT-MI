@@ -1,0 +1,90 @@
+[
+  {
+    "prompt_id": "pitch_throw_01",
+    "target_word": "pitch",
+    "sense_id": "pitch_throw",
+    "gold_sense": "physical_throw",
+    "sense_family": "physical_action",
+    "sentence": "He adjusted his grip before releasing the pitch toward home plate.",
+    "context_type": "physical_motion",
+    "context_length": 11,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "pitch_throw_02",
+    "target_word": "pitch",
+    "sense_id": "pitch_throw",
+    "gold_sense": "physical_throw",
+    "sense_family": "physical_action",
+    "sentence": "She practiced her pitch repeatedly, trying to improve both speed and accuracy.",
+    "context_type": "physical_motion",
+    "context_length": 12,
+    "context_length_tokens": 14
+  },
+  {
+    "prompt_id": "pitch_throw_03",
+    "target_word": "pitch",
+    "sense_id": "pitch_throw",
+    "gold_sense": "physical_throw",
+    "sense_family": "physical_action",
+    "sentence": "A sudden gust of wind altered the pitch just before it reached the catcher.",
+    "context_type": "physical_motion",
+    "context_length": 14,
+    "context_length_tokens": 15
+  },
+  {
+    "prompt_id": "pitch_throw_04",
+    "target_word": "pitch",
+    "sense_id": "pitch_throw",
+    "gold_sense": "physical_throw",
+    "sense_family": "physical_action",
+    "sentence": "His pitch veered slightly to the left, missing the target by inches.",
+    "context_type": "physical_motion",
+    "context_length": 12,
+    "context_length_tokens": 15
+  },
+  {
+    "prompt_id": "pitch_communication_01",
+    "target_word": "pitch",
+    "sense_id": "pitch_sales",
+    "gold_sense": "sales_communication",
+    "sense_family": "communication",
+    "sentence": "The startup refined its pitch to better explain the value of the product.",
+    "context_type": "business_communication",
+    "context_length": 13,
+    "context_length_tokens": 14
+  },
+  {
+    "prompt_id": "pitch_communication_02",
+    "target_word": "pitch",
+    "sense_id": "pitch_sales",
+    "gold_sense": "sales_communication",
+    "sense_family": "communication",
+    "sentence": "During the meeting, she delivered a clear pitch outlining projected revenue growth.",
+    "context_type": "business_communication",
+    "context_length": 12,
+    "context_length_tokens": 14
+  },
+  {
+    "prompt_id": "pitch_communication_03",
+    "target_word": "pitch",
+    "sense_id": "pitch_sales",
+    "gold_sense": "sales_communication",
+    "sense_family": "communication",
+    "sentence": "Investors listened carefully as the founder began his pitch.",
+    "context_type": "business_communication",
+    "context_length": 9,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "pitch_communication_04",
+    "target_word": "pitch",
+    "sense_id": "pitch_sales",
+    "gold_sense": "sales_communication",
+    "sense_family": "communication",
+    "sentence": "After feedback from mentors, the team revised the pitch before presenting again.",
+    "context_type": "business_communication",
+    "context_length": 12,
+    "context_length_tokens": 14
+  }
+]

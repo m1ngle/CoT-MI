@@ -1,0 +1,2 @@
+﻿Sentence_ID,Sentence_Type,Probe_Correct,Probe_Incorrect,Zero_Early,Few_Early,Zero_Mid,Few_Mid,Divergence_Layer,Zero_Collapse_Layer,Few_Collapse_Layer,Trajectory_Pattern,Notes
+pitch_1,high error / high discordance,voice,throw,near 0,near 0,declining,stable / noisy,4–5,4,8–9,few-shot more stable mid-layer,probe better than tone

@@ -1,0 +1,79 @@
+[
+  {
+    "prompt_id": "bank_river_01",
+    "target_word": "bank",
+    "sense_id": "bank_geo",
+    "gold_sense": "riverbank",
+    "sense_family": "geographic",
+    "sentence": "The fisherman sat quietly on the bank watching the water.",
+    "context_type": "physical_environment",
+    "context_length": 10,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "bank_river_02",
+    "target_word": "bank",
+    "sense_id": "bank_geo",
+    "gold_sense": "riverbank",
+    "sense_family": "geographic",
+    "sentence": "Extreme flooding has caused the bank to erode over time.",
+    "context_type": "physical_environment",
+    "context_length": 10,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "bank_river_03",
+    "target_word": "bank",
+    "sense_id": "bank_geo",
+    "gold_sense": "riverbank",
+    "sense_family": "geographic",
+    "sentence": "Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",
+    "context_type": "physical_environment",
+    "context_length": 15,
+    "context_length_tokens": 18
+  },
+  {
+    "prompt_id": "bank_money_01",
+    "target_word": "bank",
+    "sense_id": "bank_fin",
+    "gold_sense": "financial institution",
+    "sense_family": "institution",
+    "sentence": "I went to the bank to apply for a loan.",
+    "context_type": "financial_sense",
+    "context_length": 10,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "bank_money_02",
+    "target_word": "bank",
+    "sense_id": "bank_fin",
+    "gold_sense": "financial institution",
+    "sense_family": "institution",
+    "sentence": "The bank teller handed me my change.",
+    "context_type": "financial_sense",
+    "context_length": 7,
+    "context_length_tokens": 9
+  },
+  {
+    "prompt_id": "bank_money_03",
+    "target_word": "bank",
+    "sense_id": "bank_fin",
+    "gold_sense": "financial institution",
+    "sense_family": "institution",
+    "sentence": "Every Friday, I deposit my paycheck in the bank.",
+    "context_type": "financial_sense",
+    "context_length": 9,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "bank_money_04",
+    "target_word": "bank",
+    "sense_id": "bank_fin",
+    "gold_sense": "financial institution",
+    "sense_family": "institution",
+    "sentence": "Federal law insures your money at the bank.",
+    "context_type": "financial_sense",
+    "context_length": 8,
+    "context_length_tokens": 10
+  }
+]

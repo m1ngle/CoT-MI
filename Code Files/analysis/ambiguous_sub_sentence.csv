@@ -1,0 +1,37 @@
+sentence,model,api_cot_few,api_cot_zero,api_direct_few,api_direct_zero,manual_cot_few,manual_cot_zero,manual_direct_few,manual_direct_zero
+A small ring was the only thing found near the old bell.,claude,True,True,True,True,True,True,True,True
+A small ring was the only thing found near the old bell.,deepseek,True,True,True,True,True,False,False,True
+A small ring was the only thing found near the old bell.,gpt,True,True,True,True,True,True,True,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,True,False,True,False,True,False,True,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,True,True,True,True,False,False,False,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,True,False,True,True,False,False,False,False
+He hesitated to file while reviewing the materials spread across the table.,claude,True,True,True,True,True,True,True,True
+He hesitated to file while reviewing the materials spread across the table.,deepseek,True,False,True,False,True,True,False,True
+He hesitated to file while reviewing the materials spread across the table.,gpt,True,True,True,True,True,True,True,True
+He placed the file on the table next to the metal tools.,claude,True,True,True,True,True,True,True,True
+He placed the file on the table next to the metal tools.,deepseek,True,True,True,True,True,True,True,True
+He placed the file on the table next to the metal tools.,gpt,True,True,True,False,True,True,True,True
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,False,False,False,False,False,False,True,False
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,True,True,True,True,True,False,True,False
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,True,True,True,True,True,True,False,True
+No one expected the tie to be the most talked-about part of the evening.,claude,True,True,True,True,True,True,True,True
+No one expected the tie to be the most talked-about part of the evening.,deepseek,True,True,True,True,True,True,True,True
+No one expected the tie to be the most talked-about part of the evening.,gpt,True,True,True,True,True,True,True,True
+She noticed a faint ring left behind on the table after the guests departed.,claude,True,True,True,True,True,True,True,True
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,True,True,True,True,True,True,True,True
+She noticed a faint ring left behind on the table after the guests departed.,gpt,True,True,True,True,True,True,True,True
+She noticed the ring fade as soon as the bell stopped echoing.,claude,True,True,True,True,True,True,True,True
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,True,True,True,True,True,True,True,True
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,True,True,True,True,True,True,True,True
+She realized halfway through the pitch that her delivery was far too fast.,claude,True,True,True,True,True,True,True,True
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,True,True,True,True,True,True,True,True
+She realized halfway through the pitch that her delivery was far too fast.,gpt,True,True,True,True,True,True,True,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,True,True,True,True,True,True,True,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,True,True,True,True,True,True,True,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,True,True,True,True,True,True,True,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,True,True,True,False,True,True,True,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,True,True,True,True,True,True,True,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,True,True,False,True,True,True,True,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,True,True,True,True,True,True,True,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,True,True,True,True,True,True,True,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,True,True,True,True,True,True,True,True

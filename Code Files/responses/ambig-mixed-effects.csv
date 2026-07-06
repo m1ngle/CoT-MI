@@ -1,0 +1,981 @@
+sentence,model,query_mode,prompt_type,shot_type,context_type,correct
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,direct,zero,physical_environment,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,cot,zero,physical_environment,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,direct,few,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,api,cot,few,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,direct,zero,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,cot,zero,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,direct,few,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,api,cot,few,physical_environment,True
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,direct,zero,physical_motion,True
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,cot,zero,physical_motion,True
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,direct,few,physical_motion,True
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,api,cot,few,physical_motion,True
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,direct,zero,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,cot,zero,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,direct,few,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,gpt,api,cot,few,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,direct,zero,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,cot,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,direct,few,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,cot,few,business_communication,True
+A small ring was the only thing found near the old bell.,gpt,api,direct,zero,personal_adornment,True
+A small ring was the only thing found near the old bell.,gpt,api,cot,zero,personal_adornment,True
+A small ring was the only thing found near the old bell.,gpt,api,direct,few,personal_adornment,True
+A small ring was the only thing found near the old bell.,gpt,api,cot,few,personal_adornment,True
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,direct,zero,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,cot,zero,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,direct,few,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,api,cot,few,auditory_event,True
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,direct,zero,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,cot,zero,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,direct,few,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,gpt,api,cot,few,spatial_structure,True
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,direct,zero,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,cot,zero,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,direct,few,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,gpt,api,cot,few,social_formal,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,direct,zero,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,cot,zero,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,direct,few,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,api,cot,few,physical_binding,True
+He placed the file on the table next to the metal tools.,gpt,api,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,api,cot,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,gpt,api,direct,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,gpt,api,cot,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,gpt,api,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,api,cot,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,gpt,api,direct,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,gpt,api,cot,few,physical_tool_use,True
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,direct,zero,administrative_action,True
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,cot,zero,administrative_action,True
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,direct,few,administrative_action,True
+He hesitated to file while reviewing the materials spread across the table.,gpt,api,cot,few,administrative_action,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,direct,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,cot,zero,physical_environment,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,direct,few,physical_environment,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,cot,few,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,direct,zero,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,cot,zero,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,direct,few,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,cot,few,physical_environment,True
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,direct,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,cot,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,direct,few,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,cot,few,physical_motion,False
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,direct,zero,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,cot,zero,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,direct,few,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,cot,few,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,direct,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,cot,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,direct,few,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,cot,few,business_communication,True
+A small ring was the only thing found near the old bell.,claude,api,direct,zero,personal_adornment,True
+A small ring was the only thing found near the old bell.,claude,api,cot,zero,personal_adornment,True
+A small ring was the only thing found near the old bell.,claude,api,direct,few,personal_adornment,True
+A small ring was the only thing found near the old bell.,claude,api,cot,few,personal_adornment,True
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,direct,zero,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,cot,zero,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,direct,few,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,cot,few,auditory_event,True
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,direct,zero,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,cot,zero,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,direct,few,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,cot,few,spatial_structure,True
+No one expected the tie to be the most talked-about part of the evening.,claude,api,direct,zero,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,claude,api,cot,zero,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,claude,api,direct,few,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,claude,api,cot,few,social_formal,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,direct,zero,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,cot,zero,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,direct,few,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,cot,few,physical_binding,True
+He placed the file on the table next to the metal tools.,claude,api,direct,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,claude,api,cot,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,claude,api,direct,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,claude,api,cot,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,claude,api,direct,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,claude,api,cot,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,claude,api,direct,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,claude,api,cot,few,physical_tool_use,True
+He hesitated to file while reviewing the materials spread across the table.,claude,api,direct,zero,administrative_action,True
+He hesitated to file while reviewing the materials spread across the table.,claude,api,cot,zero,administrative_action,True
+He hesitated to file while reviewing the materials spread across the table.,claude,api,direct,few,administrative_action,True
+He hesitated to file while reviewing the materials spread across the table.,claude,api,cot,few,administrative_action,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,direct,zero,physical_environment,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,cot,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,direct,few,physical_environment,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,cot,few,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,direct,zero,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,cot,zero,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,direct,few,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,cot,few,physical_environment,True
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,direct,zero,physical_motion,True
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,cot,zero,physical_motion,True
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,direct,few,physical_motion,True
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,cot,few,physical_motion,True
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,direct,zero,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,cot,zero,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,direct,few,business_communication,True
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,cot,few,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,direct,zero,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,direct,few,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,few,business_communication,False
+A small ring was the only thing found near the old bell.,deepseek,api,direct,zero,personal_adornment,True
+A small ring was the only thing found near the old bell.,deepseek,api,cot,zero,personal_adornment,False
+A small ring was the only thing found near the old bell.,deepseek,api,direct,few,personal_adornment,True
+A small ring was the only thing found near the old bell.,deepseek,api,cot,few,personal_adornment,True
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,direct,zero,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,cot,zero,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,direct,few,auditory_event,True
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,cot,few,auditory_event,True
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,direct,zero,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,cot,zero,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,direct,few,spatial_structure,True
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,cot,few,spatial_structure,True
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,direct,zero,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,cot,zero,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,direct,few,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,cot,few,social_formal,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,direct,zero,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,cot,zero,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,direct,few,physical_binding,True
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,cot,few,physical_binding,True
+He placed the file on the table next to the metal tools.,deepseek,api,direct,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,deepseek,api,cot,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,deepseek,api,direct,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,deepseek,api,cot,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,deepseek,api,direct,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,deepseek,api,cot,zero,physical_tool_use,True
+He placed the file on the table next to the metal tools.,deepseek,api,direct,few,physical_tool_use,True
+He placed the file on the table next to the metal tools.,deepseek,api,cot,few,physical_tool_use,True
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,direct,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,cot,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,direct,few,administrative_action,True
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,cot,few,administrative_action,True
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,direct,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,cot,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,direct,few,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",gpt,manual,cot,few,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,direct,zero,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,cot,zero,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,direct,few,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",gpt,manual,cot,few,physical_environment,False
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,direct,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,cot,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,direct,few,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,gpt,manual,cot,few,physical_motion,False
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,direct,zero,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,cot,zero,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,direct,few,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,gpt,manual,cot,few,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,direct,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,cot,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,direct,few,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,manual,cot,few,business_communication,False
+A small ring was the only thing found near the old bell.,gpt,manual,direct,zero,personal_adornment,False
+A small ring was the only thing found near the old bell.,gpt,manual,cot,zero,personal_adornment,False
+A small ring was the only thing found near the old bell.,gpt,manual,direct,few,personal_adornment,False
+A small ring was the only thing found near the old bell.,gpt,manual,cot,few,personal_adornment,False
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,direct,zero,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,cot,zero,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,direct,few,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,gpt,manual,cot,few,auditory_event,False
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,direct,zero,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,cot,zero,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,direct,few,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,gpt,manual,cot,few,spatial_structure,False
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,direct,zero,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,cot,zero,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,direct,few,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,gpt,manual,cot,few,social_formal,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,direct,zero,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,cot,zero,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,direct,few,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",gpt,manual,cot,few,physical_binding,False
+He placed the file on the table next to the metal tools.,gpt,manual,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,manual,cot,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,manual,direct,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,manual,cot,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,manual,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,manual,cot,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,manual,direct,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,gpt,manual,cot,few,physical_tool_use,False
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,direct,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,cot,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,direct,few,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,gpt,manual,cot,few,administrative_action,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,direct,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,cot,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,direct,few,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",claude,api,cot,few,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,direct,zero,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,cot,zero,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,direct,few,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",claude,api,cot,few,physical_environment,False
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,direct,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,cot,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,direct,few,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,claude,api,cot,few,physical_motion,False
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,direct,zero,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,cot,zero,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,direct,few,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,claude,api,cot,few,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,direct,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,cot,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,direct,few,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",claude,api,cot,few,business_communication,False
+A small ring was the only thing found near the old bell.,claude,api,direct,zero,personal_adornment,False
+A small ring was the only thing found near the old bell.,claude,api,cot,zero,personal_adornment,False
+A small ring was the only thing found near the old bell.,claude,api,direct,few,personal_adornment,False
+A small ring was the only thing found near the old bell.,claude,api,cot,few,personal_adornment,False
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,direct,zero,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,cot,zero,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,direct,few,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,claude,api,cot,few,auditory_event,False
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,direct,zero,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,cot,zero,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,direct,few,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,claude,api,cot,few,spatial_structure,False
+No one expected the tie to be the most talked-about part of the evening.,claude,api,direct,zero,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,claude,api,cot,zero,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,claude,api,direct,few,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,claude,api,cot,few,social_formal,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,direct,zero,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,cot,zero,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,direct,few,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",claude,api,cot,few,physical_binding,False
+He placed the file on the table next to the metal tools.,claude,api,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,claude,api,cot,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,claude,api,direct,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,claude,api,cot,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,claude,api,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,claude,api,cot,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,claude,api,direct,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,claude,api,cot,few,physical_tool_use,False
+He hesitated to file while reviewing the materials spread across the table.,claude,api,direct,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,claude,api,cot,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,claude,api,direct,few,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,claude,api,cot,few,administrative_action,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,direct,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,cot,zero,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,direct,few,physical_environment,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,cot,few,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,direct,zero,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,cot,zero,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,direct,few,physical_environment,False
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,cot,few,physical_environment,False
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,direct,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,cot,zero,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,direct,few,physical_motion,False
+It was a curveball pitch that nobody in the room was prepared to handle.,deepseek,api,cot,few,physical_motion,False
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,direct,zero,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,cot,zero,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,direct,few,business_communication,False
+She realized halfway through the pitch that her delivery was far too fast.,deepseek,api,cot,few,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,direct,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,zero,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,direct,few,business_communication,False
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,few,business_communication,False
+A small ring was the only thing found near the old bell.,deepseek,api,direct,zero,personal_adornment,False
+A small ring was the only thing found near the old bell.,deepseek,api,cot,zero,personal_adornment,False
+A small ring was the only thing found near the old bell.,deepseek,api,direct,few,personal_adornment,False
+A small ring was the only thing found near the old bell.,deepseek,api,cot,few,personal_adornment,False
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,direct,zero,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,cot,zero,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,direct,few,auditory_event,False
+She noticed the ring fade as soon as the bell stopped echoing.,deepseek,api,cot,few,auditory_event,False
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,direct,zero,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,cot,zero,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,direct,few,spatial_structure,False
+She noticed a faint ring left behind on the table after the guests departed.,deepseek,api,cot,few,spatial_structure,False
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,direct,zero,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,cot,zero,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,direct,few,social_formal,False
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,cot,few,social_formal,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,direct,zero,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,cot,zero,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,direct,few,physical_binding,False
+"Without a secure tie, the boxes used in the presentation would likely fall apart.",deepseek,api,cot,few,physical_binding,False
+He placed the file on the table next to the metal tools.,deepseek,api,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,deepseek,api,cot,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,deepseek,api,direct,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,deepseek,api,cot,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,deepseek,api,direct,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,deepseek,api,cot,zero,physical_tool_use,False
+He placed the file on the table next to the metal tools.,deepseek,api,direct,few,physical_tool_use,False
+He placed the file on the table next to the metal tools.,deepseek,api,cot,few,physical_tool_use,False
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,direct,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,cot,zero,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,direct,few,administrative_action,False
+He hesitated to file while reviewing the materials spread across the table.,deepseek,api,cot,few,administrative_action,False
+The fisherman sat quietly on the bank watching the water.,claude,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,direct,few,physical_environment,True
+The bank teller handed me my change.,deepseek,api,cot,few,financial_sense,True
+The bank teller handed me my change.,deepseek,api,cot,few,financial_sense,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,direct,few,physical_environment,True
+She decided to file a complaint with the city office.,deepseek,api,cot,few,administrative_action,True
+She decided to file a complaint with the city office.,deepseek,api,cot,few,administrative_action,True
+He noticed the ring only after the light caught the stone.,claude,api,cot,few,personal_adornment,True
+He noticed the ring only after the light caught the stone.,gpt,api,cot,few,personal_adornment,True
+They will file the paperwork before the deadline.,deepseek,api,direct,few,administrative_action,True
+They will file the paperwork before the deadline.,deepseek,api,direct,few,administrative_action,True
+The ring had been passed down through several generations.,claude,api,direct,few,personal_adornment,True
+The ring had been passed down through several generations.,gpt,api,direct,few,personal_adornment,True
+They will file the paperwork before the deadline.,deepseek,api,cot,few,administrative_action,True
+They will file the paperwork before the deadline.,deepseek,api,cot,few,administrative_action,True
+The ring had been passed down through several generations.,claude,api,direct,few,personal_adornment,True
+The ring had been passed down through several generations.,gpt,api,direct,few,personal_adornment,True
+He plans to file his tax return tomorrow.,deepseek,api,direct,few,administrative_action,True
+He plans to file his tax return tomorrow.,deepseek,api,direct,few,administrative_action,True
+The ring had been passed down through several generations.,claude,api,cot,few,personal_adornment,True
+The ring had been passed down through several generations.,gpt,api,cot,few,personal_adornment,True
+He plans to file his tax return tomorrow.,deepseek,api,cot,few,administrative_action,True
+He plans to file his tax return tomorrow.,deepseek,api,cot,few,administrative_action,True
+The ring had been passed down through several generations.,claude,api,cot,few,personal_adornment,True
+The ring had been passed down through several generations.,gpt,api,cot,few,personal_adornment,True
+She opened the file on her computer to review the report.,deepseek,api,direct,few,digital_record,True
+She opened the file on her computer to review the report.,deepseek,api,direct,few,digital_record,True
+A sudden ring echoed through the quiet hallway.,claude,api,direct,few,auditory_event,True
+A sudden ring echoed through the quiet hallway.,gpt,api,direct,few,auditory_event,True
+She opened the file on her computer to review the report.,deepseek,api,cot,few,digital_record,True
+She opened the file on her computer to review the report.,deepseek,api,cot,few,digital_record,True
+A sudden ring echoed through the quiet hallway.,claude,api,direct,few,auditory_event,True
+A sudden ring echoed through the quiet hallway.,gpt,api,direct,few,auditory_event,True
+The lawyer pulled the case file from the cabinet.,deepseek,api,direct,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,deepseek,api,direct,few,physical_record,True
+A sudden ring echoed through the quiet hallway.,claude,api,cot,few,auditory_event,True
+A sudden ring echoed through the quiet hallway.,gpt,api,cot,few,auditory_event,True
+The lawyer pulled the case file from the cabinet.,deepseek,api,cot,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,deepseek,api,cot,few,physical_record,True
+A sudden ring echoed through the quiet hallway.,claude,api,cot,few,auditory_event,True
+A sudden ring echoed through the quiet hallway.,gpt,api,cot,few,auditory_event,True
+Each employee has a file stored in the archive room.,deepseek,api,direct,few,physical_record,True
+Each employee has a file stored in the archive room.,deepseek,api,direct,few,physical_record,True
+She paused when she heard a ring coming from the phone.,claude,api,direct,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,gpt,api,direct,few,auditory_event,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,direct,few,financial_sense,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,cot,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,cot,few,physical_environment,True
+Each employee has a file stored in the archive room.,deepseek,api,cot,few,physical_record,True
+Each employee has a file stored in the archive room.,deepseek,api,cot,few,physical_record,True
+She paused when she heard a ring coming from the phone.,claude,api,direct,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,gpt,api,direct,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,claude,api,cot,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,gpt,api,cot,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,claude,api,cot,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,gpt,api,cot,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,claude,api,direct,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,gpt,api,direct,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,claude,api,direct,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,gpt,api,direct,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,claude,api,cot,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,gpt,api,cot,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,claude,api,cot,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,gpt,api,cot,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,claude,api,direct,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,gpt,api,direct,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,claude,api,direct,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,gpt,api,direct,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,claude,api,cot,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,gpt,api,cot,few,auditory_event,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,cot,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,cot,few,financial_sense,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,cot,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,cot,few,physical_environment,True
+Everyone turned at the ring that signaled the end of class.,claude,api,cot,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,gpt,api,cot,few,auditory_event,True
+A ring of stones surrounded the fire pit.,claude,api,direct,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,gpt,api,direct,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,claude,api,direct,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,gpt,api,direct,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,claude,api,cot,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,gpt,api,cot,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,claude,api,cot,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,gpt,api,cot,few,spatial_structure,True
+The trees formed a ring around the clearing.,claude,api,direct,few,spatial_structure,True
+The trees formed a ring around the clearing.,gpt,api,direct,few,spatial_structure,True
+The trees formed a ring around the clearing.,claude,api,direct,few,spatial_structure,True
+The trees formed a ring around the clearing.,gpt,api,direct,few,spatial_structure,True
+The trees formed a ring around the clearing.,claude,api,cot,few,spatial_structure,True
+The trees formed a ring around the clearing.,gpt,api,cot,few,spatial_structure,True
+The trees formed a ring around the clearing.,claude,api,cot,few,spatial_structure,True
+The trees formed a ring around the clearing.,gpt,api,cot,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,claude,api,direct,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,gpt,api,direct,few,spatial_structure,True
+I went to the bank to apply for a loan.,claude,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,direct,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,direct,few,financial_sense,True
+A dark ring appeared around the stain after it dried.,claude,api,direct,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,gpt,api,direct,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,claude,api,cot,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,gpt,api,cot,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,claude,api,cot,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,gpt,api,cot,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,claude,api,direct,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,gpt,api,direct,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,claude,api,direct,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,gpt,api,direct,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,claude,api,cot,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,gpt,api,cot,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,claude,api,cot,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,gpt,api,cot,few,spatial_structure,True
+He straightened his tie before walking into the interview.,claude,api,direct,few,social_formal,True
+He straightened his tie before walking into the interview.,gpt,api,direct,few,social_formal,True
+He straightened his tie before walking into the interview.,claude,api,direct,few,social_formal,True
+He straightened his tie before walking into the interview.,gpt,api,direct,few,social_formal,True
+He straightened his tie before walking into the interview.,claude,api,cot,few,social_formal,True
+He straightened his tie before walking into the interview.,gpt,api,cot,few,social_formal,True
+I went to the bank to apply for a loan.,claude,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,cot,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,direct,few,financial_sense,True
+He straightened his tie before walking into the interview.,claude,api,cot,few,social_formal,True
+He straightened his tie before walking into the interview.,gpt,api,cot,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,claude,api,direct,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,gpt,api,direct,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,claude,api,direct,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,gpt,api,direct,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,claude,api,cot,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,gpt,api,cot,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,claude,api,cot,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,gpt,api,cot,few,social_formal,True
+She bought a new tie as a gift for her father.,claude,api,direct,few,social_formal,True
+She bought a new tie as a gift for her father.,gpt,api,direct,few,social_formal,True
+She bought a new tie as a gift for her father.,claude,api,direct,few,social_formal,True
+She bought a new tie as a gift for her father.,gpt,api,direct,few,social_formal,True
+She bought a new tie as a gift for her father.,claude,api,cot,few,social_formal,True
+She bought a new tie as a gift for her father.,gpt,api,cot,few,social_formal,True
+She bought a new tie as a gift for her father.,claude,api,cot,few,social_formal,True
+She bought a new tie as a gift for her father.,gpt,api,cot,few,social_formal,True
+His tie was loosened after the long ceremony ended.,claude,api,direct,few,social_formal,True
+His tie was loosened after the long ceremony ended.,gpt,api,direct,few,social_formal,True
+I went to the bank to apply for a loan.,claude,api,cot,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,cot,few,financial_sense,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,direct,few,physical_environment,True
+His tie was loosened after the long ceremony ended.,claude,api,direct,few,social_formal,True
+His tie was loosened after the long ceremony ended.,gpt,api,direct,few,social_formal,True
+His tie was loosened after the long ceremony ended.,claude,api,cot,few,social_formal,True
+His tie was loosened after the long ceremony ended.,gpt,api,cot,few,social_formal,True
+His tie was loosened after the long ceremony ended.,claude,api,cot,few,social_formal,True
+His tie was loosened after the long ceremony ended.,gpt,api,cot,few,social_formal,True
+The game ended in a tie after overtime.,claude,api,direct,few,competitive_event,True
+The game ended in a tie after overtime.,gpt,api,direct,few,competitive_event,True
+The game ended in a tie after overtime.,claude,api,direct,few,competitive_event,True
+The game ended in a tie after overtime.,gpt,api,direct,few,competitive_event,True
+The game ended in a tie after overtime.,claude,api,cot,few,competitive_event,True
+The game ended in a tie after overtime.,gpt,api,cot,few,competitive_event,True
+The game ended in a tie after overtime.,claude,api,cot,few,competitive_event,True
+The game ended in a tie after overtime.,gpt,api,cot,few,competitive_event,True
+Both candidates finished the election in a tie.,claude,api,direct,few,competitive_event,True
+Both candidates finished the election in a tie.,gpt,api,direct,few,competitive_event,True
+Both candidates finished the election in a tie.,claude,api,direct,few,competitive_event,True
+Both candidates finished the election in a tie.,gpt,api,direct,few,competitive_event,True
+Both candidates finished the election in a tie.,claude,api,cot,few,competitive_event,True
+Both candidates finished the election in a tie.,gpt,api,cot,few,competitive_event,True
+I went to the bank to apply for a loan.,claude,api,cot,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,cot,few,financial_sense,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,cot,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,cot,few,physical_environment,True
+Both candidates finished the election in a tie.,claude,api,cot,few,competitive_event,True
+Both candidates finished the election in a tie.,gpt,api,cot,few,competitive_event,True
+The final score resulted in a tie between the teams.,claude,api,direct,few,competitive_event,True
+The final score resulted in a tie between the teams.,gpt,api,direct,few,competitive_event,True
+The final score resulted in a tie between the teams.,claude,api,direct,few,competitive_event,True
+The final score resulted in a tie between the teams.,gpt,api,direct,few,competitive_event,True
+The final score resulted in a tie between the teams.,claude,api,cot,few,competitive_event,True
+The final score resulted in a tie between the teams.,gpt,api,cot,few,competitive_event,True
+The final score resulted in a tie between the teams.,claude,api,cot,few,competitive_event,True
+The final score resulted in a tie between the teams.,gpt,api,cot,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",claude,api,direct,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",gpt,api,direct,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",claude,api,direct,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",gpt,api,direct,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",claude,api,cot,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",gpt,api,cot,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",claude,api,cot,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",gpt,api,cot,few,competitive_event,True
+She used a rope to tie the boxes together.,claude,api,direct,few,physical_binding,True
+She used a rope to tie the boxes together.,gpt,api,direct,few,physical_binding,True
+The bank teller handed me my change.,claude,api,direct,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,direct,few,financial_sense,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,direct,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,direct,few,physical_environment,True
+She used a rope to tie the boxes together.,claude,api,direct,few,physical_binding,True
+She used a rope to tie the boxes together.,gpt,api,direct,few,physical_binding,True
+She used a rope to tie the boxes together.,claude,api,cot,few,physical_binding,True
+She used a rope to tie the boxes together.,gpt,api,cot,few,physical_binding,True
+She used a rope to tie the boxes together.,claude,api,cot,few,physical_binding,True
+She used a rope to tie the boxes together.,gpt,api,cot,few,physical_binding,True
+He learned how to tie the knot securely.,claude,api,direct,few,physical_binding,True
+He learned how to tie the knot securely.,gpt,api,direct,few,physical_binding,True
+He learned how to tie the knot securely.,claude,api,direct,few,physical_binding,True
+He learned how to tie the knot securely.,gpt,api,direct,few,physical_binding,True
+He learned how to tie the knot securely.,claude,api,cot,few,physical_binding,True
+He learned how to tie the knot securely.,gpt,api,cot,few,physical_binding,True
+He learned how to tie the knot securely.,claude,api,cot,few,physical_binding,True
+He learned how to tie the knot securely.,gpt,api,cot,few,physical_binding,True
+They worked together to tie the fence posts in place.,claude,api,direct,few,physical_binding,True
+They worked together to tie the fence posts in place.,gpt,api,direct,few,physical_binding,True
+They worked together to tie the fence posts in place.,claude,api,direct,few,physical_binding,True
+They worked together to tie the fence posts in place.,gpt,api,direct,few,physical_binding,True
+They worked together to tie the fence posts in place.,claude,api,cot,few,physical_binding,True
+They worked together to tie the fence posts in place.,gpt,api,cot,few,physical_binding,True
+The bank teller handed me my change.,claude,api,direct,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,direct,few,financial_sense,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,cot,few,physical_environment,True
+They worked together to tie the fence posts in place.,claude,api,cot,few,physical_binding,True
+They worked together to tie the fence posts in place.,gpt,api,cot,few,physical_binding,True
+The instructions explained how to tie the cables safely.,claude,api,direct,few,physical_binding,True
+The instructions explained how to tie the cables safely.,gpt,api,direct,few,physical_binding,True
+The instructions explained how to tie the cables safely.,claude,api,direct,few,physical_binding,True
+The instructions explained how to tie the cables safely.,gpt,api,direct,few,physical_binding,True
+The instructions explained how to tie the cables safely.,claude,api,cot,few,physical_binding,True
+The instructions explained how to tie the cables safely.,gpt,api,cot,few,physical_binding,True
+The instructions explained how to tie the cables safely.,claude,api,cot,few,physical_binding,True
+The instructions explained how to tie the cables safely.,gpt,api,cot,few,physical_binding,True
+He used a file to smooth the sharp edge of the metal.,claude,api,direct,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,gpt,api,direct,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,claude,api,direct,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,gpt,api,direct,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,claude,api,cot,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,gpt,api,cot,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,claude,api,cot,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,gpt,api,cot,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,claude,api,direct,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,gpt,api,direct,few,physical_tool_use,True
+The bank teller handed me my change.,claude,api,cot,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,cot,few,financial_sense,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,direct,few,physical_environment,True
+The mechanic reached for a file to remove the burrs.,claude,api,direct,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,gpt,api,direct,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,claude,api,cot,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,gpt,api,cot,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,claude,api,cot,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,gpt,api,cot,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,claude,api,direct,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,gpt,api,direct,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,claude,api,direct,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,gpt,api,direct,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,claude,api,cot,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,gpt,api,cot,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,claude,api,cot,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,gpt,api,cot,few,physical_tool_use,True
+She decided to file a complaint with the city office.,claude,api,direct,few,administrative_action,True
+She decided to file a complaint with the city office.,gpt,api,direct,few,administrative_action,True
+She decided to file a complaint with the city office.,claude,api,direct,few,administrative_action,True
+She decided to file a complaint with the city office.,gpt,api,direct,few,administrative_action,True
+She decided to file a complaint with the city office.,claude,api,cot,few,administrative_action,True
+She decided to file a complaint with the city office.,gpt,api,cot,few,administrative_action,True
+The fisherman sat quietly on the bank watching the water.,claude,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,cot,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,deepseek,api,cot,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,direct,few,physical_environment,True
+The bank teller handed me my change.,claude,api,cot,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,cot,few,financial_sense,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,cot,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,cot,few,physical_environment,True
+She decided to file a complaint with the city office.,claude,api,cot,few,administrative_action,True
+She decided to file a complaint with the city office.,gpt,api,cot,few,administrative_action,True
+They will file the paperwork before the deadline.,claude,api,direct,few,administrative_action,True
+They will file the paperwork before the deadline.,gpt,api,direct,few,administrative_action,True
+They will file the paperwork before the deadline.,claude,api,direct,few,administrative_action,True
+They will file the paperwork before the deadline.,gpt,api,direct,few,administrative_action,True
+They will file the paperwork before the deadline.,claude,api,cot,few,administrative_action,True
+They will file the paperwork before the deadline.,gpt,api,cot,few,administrative_action,True
+They will file the paperwork before the deadline.,claude,api,cot,few,administrative_action,True
+They will file the paperwork before the deadline.,gpt,api,cot,few,administrative_action,True
+He plans to file his tax return tomorrow.,claude,api,direct,few,administrative_action,True
+He plans to file his tax return tomorrow.,gpt,api,direct,few,administrative_action,True
+He plans to file his tax return tomorrow.,claude,api,direct,few,administrative_action,True
+He plans to file his tax return tomorrow.,gpt,api,direct,few,administrative_action,True
+He plans to file his tax return tomorrow.,claude,api,cot,few,administrative_action,True
+He plans to file his tax return tomorrow.,gpt,api,cot,few,administrative_action,True
+He plans to file his tax return tomorrow.,claude,api,cot,few,administrative_action,True
+He plans to file his tax return tomorrow.,gpt,api,cot,few,administrative_action,True
+She opened the file on her computer to review the report.,claude,api,direct,few,digital_record,True
+She opened the file on her computer to review the report.,gpt,api,direct,few,digital_record,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,direct,few,financial_sense,True
+I went to the bank to apply for a loan.,deepseek,api,direct,few,financial_sense,True
+I went to the bank to apply for a loan.,deepseek,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,direct,few,financial_sense,True
+She opened the file on her computer to review the report.,claude,api,direct,few,digital_record,True
+She opened the file on her computer to review the report.,gpt,api,direct,few,digital_record,True
+She opened the file on her computer to review the report.,claude,api,cot,few,digital_record,True
+She opened the file on her computer to review the report.,gpt,api,cot,few,digital_record,True
+She opened the file on her computer to review the report.,claude,api,cot,few,digital_record,True
+She opened the file on her computer to review the report.,gpt,api,cot,few,digital_record,True
+The lawyer pulled the case file from the cabinet.,claude,api,direct,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,gpt,api,direct,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,claude,api,direct,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,gpt,api,direct,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,claude,api,cot,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,gpt,api,cot,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,claude,api,cot,few,physical_record,True
+The lawyer pulled the case file from the cabinet.,gpt,api,cot,few,physical_record,True
+Each employee has a file stored in the archive room.,claude,api,direct,few,physical_record,True
+Each employee has a file stored in the archive room.,gpt,api,direct,few,physical_record,True
+Each employee has a file stored in the archive room.,claude,api,direct,few,physical_record,True
+Each employee has a file stored in the archive room.,gpt,api,direct,few,physical_record,True
+Each employee has a file stored in the archive room.,claude,api,cot,few,physical_record,True
+Each employee has a file stored in the archive room.,gpt,api,cot,few,physical_record,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,direct,few,financial_sense,True
+I went to the bank to apply for a loan.,deepseek,api,cot,few,financial_sense,True
+I went to the bank to apply for a loan.,deepseek,api,cot,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,direct,few,financial_sense,True
+Each employee has a file stored in the archive room.,claude,api,cot,few,physical_record,True
+Each employee has a file stored in the archive room.,gpt,api,cot,few,physical_record,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,cot,few,financial_sense,True
+The bank teller handed me my change.,deepseek,api,direct,few,financial_sense,True
+The bank teller handed me my change.,deepseek,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,cot,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,cot,few,financial_sense,True
+The bank teller handed me my change.,deepseek,api,cot,few,financial_sense,True
+The bank teller handed me my change.,deepseek,api,cot,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,claude,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,claude,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,cot,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",deepseek,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,claude,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,claude,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,deepseek,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,cot,few,financial_sense,True
+The fisherman sat quietly on the bank watching the water.,claude,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,direct,few,physical_environment,True
+He adjusted his grip before releasing the pitch toward home plate.,deepseek,api,direct,few,physical_motion,True
+He adjusted his grip before releasing the pitch toward home plate.,deepseek,api,direct,few,physical_motion,True
+The fisherman sat quietly on the bank watching the water.,claude,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,direct,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,cot,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,claude,api,direct,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,direct,few,physical_environment,True
+He adjusted his grip before releasing the pitch toward home plate.,deepseek,api,cot,few,physical_motion,True
+He adjusted his grip before releasing the pitch toward home plate.,deepseek,api,cot,few,physical_motion,True
+The fisherman sat quietly on the bank watching the water.,claude,api,cot,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,cot,few,physical_environment,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",deepseek,api,direct,few,physical_motion,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",deepseek,api,direct,few,physical_motion,True
+The fisherman sat quietly on the bank watching the water.,claude,api,cot,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,cot,few,physical_environment,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",deepseek,api,cot,few,physical_motion,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",deepseek,api,cot,few,physical_motion,True
+Extreme flooding has caused the bank to erode over time.,claude,api,direct,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,direct,few,physical_environment,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,deepseek,api,direct,few,physical_motion,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,deepseek,api,direct,few,physical_motion,True
+Extreme flooding has caused the bank to erode over time.,claude,api,direct,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,direct,few,physical_environment,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,deepseek,api,cot,few,physical_motion,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,deepseek,api,cot,few,physical_motion,True
+Extreme flooding has caused the bank to erode over time.,claude,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,cot,few,physical_environment,True
+"His pitch veered slightly to the left, missing the target by inches.",deepseek,api,direct,few,physical_motion,True
+"His pitch veered slightly to the left, missing the target by inches.",deepseek,api,direct,few,physical_motion,True
+Extreme flooding has caused the bank to erode over time.,claude,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,cot,few,physical_environment,True
+"His pitch veered slightly to the left, missing the target by inches.",deepseek,api,cot,few,physical_motion,True
+"His pitch veered slightly to the left, missing the target by inches.",deepseek,api,cot,few,physical_motion,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,direct,few,physical_environment,True
+The startup refined its pitch to better explain the value of the product.,deepseek,api,direct,few,business_communication,True
+The startup refined its pitch to better explain the value of the product.,deepseek,api,direct,few,business_communication,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,direct,few,physical_environment,True
+The startup refined its pitch to better explain the value of the product.,deepseek,api,cot,few,business_communication,True
+The startup refined its pitch to better explain the value of the product.,deepseek,api,cot,few,business_communication,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,cot,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,cot,few,physical_environment,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",deepseek,api,direct,few,business_communication,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",deepseek,api,direct,few,business_communication,True
+The fisherman sat quietly on the bank watching the water.,claude,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,deepseek,api,cot,few,physical_environment,True
+The fisherman sat quietly on the bank watching the water.,gpt,api,cot,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,cot,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,cot,few,physical_environment,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",deepseek,api,cot,few,business_communication,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",deepseek,api,cot,few,business_communication,True
+I went to the bank to apply for a loan.,claude,api,direct,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,direct,few,financial_sense,True
+Investors listened carefully as the founder began his pitch.,deepseek,api,direct,few,business_communication,True
+Investors listened carefully as the founder began his pitch.,deepseek,api,direct,few,business_communication,True
+I went to the bank to apply for a loan.,claude,api,direct,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,direct,few,financial_sense,True
+Investors listened carefully as the founder began his pitch.,deepseek,api,cot,few,business_communication,True
+Investors listened carefully as the founder began his pitch.,deepseek,api,cot,few,business_communication,True
+I went to the bank to apply for a loan.,claude,api,cot,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,cot,few,financial_sense,True
+"After feedback from mentors, the team revised the pitch before presenting again.",deepseek,api,direct,few,business_communication,True
+"After feedback from mentors, the team revised the pitch before presenting again.",deepseek,api,direct,few,business_communication,True
+I went to the bank to apply for a loan.,claude,api,cot,few,financial_sense,True
+I went to the bank to apply for a loan.,gpt,api,cot,few,financial_sense,True
+"After feedback from mentors, the team revised the pitch before presenting again.",deepseek,api,cot,few,business_communication,True
+"After feedback from mentors, the team revised the pitch before presenting again.",deepseek,api,cot,few,business_communication,True
+The bank teller handed me my change.,claude,api,direct,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,direct,few,financial_sense,True
+She slipped the ring onto her finger before leaving the house.,deepseek,api,direct,few,personal_adornment,True
+She slipped the ring onto her finger before leaving the house.,deepseek,api,direct,few,personal_adornment,True
+The bank teller handed me my change.,claude,api,direct,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,direct,few,financial_sense,True
+She slipped the ring onto her finger before leaving the house.,deepseek,api,cot,few,personal_adornment,True
+She slipped the ring onto her finger before leaving the house.,deepseek,api,cot,few,personal_adornment,True
+The bank teller handed me my change.,claude,api,cot,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,cot,few,financial_sense,True
+The antique ring was displayed under glass at the museum.,deepseek,api,direct,few,personal_adornment,True
+The antique ring was displayed under glass at the museum.,deepseek,api,direct,few,personal_adornment,True
+The bank teller handed me my change.,claude,api,cot,few,financial_sense,True
+The bank teller handed me my change.,gpt,api,cot,few,financial_sense,True
+The antique ring was displayed under glass at the museum.,deepseek,api,cot,few,personal_adornment,True
+The antique ring was displayed under glass at the museum.,deepseek,api,cot,few,personal_adornment,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,direct,few,financial_sense,True
+He noticed the ring only after the light caught the stone.,deepseek,api,direct,few,personal_adornment,True
+He noticed the ring only after the light caught the stone.,deepseek,api,direct,few,personal_adornment,True
+Extreme flooding has caused the bank to erode over time.,claude,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,direct,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,direct,few,physical_environment,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,direct,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,direct,few,financial_sense,True
+He noticed the ring only after the light caught the stone.,deepseek,api,cot,few,personal_adornment,True
+He noticed the ring only after the light caught the stone.,deepseek,api,cot,few,personal_adornment,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,cot,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,cot,few,financial_sense,True
+The ring had been passed down through several generations.,deepseek,api,direct,few,personal_adornment,True
+The ring had been passed down through several generations.,deepseek,api,direct,few,personal_adornment,True
+"Every Friday, I deposit my paycheck in the bank.",claude,api,cot,few,financial_sense,True
+"Every Friday, I deposit my paycheck in the bank.",gpt,api,cot,few,financial_sense,True
+The ring had been passed down through several generations.,deepseek,api,cot,few,personal_adornment,True
+The ring had been passed down through several generations.,deepseek,api,cot,few,personal_adornment,True
+Federal law insures your money at the bank.,claude,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,direct,few,financial_sense,True
+A sudden ring echoed through the quiet hallway.,deepseek,api,direct,few,auditory_event,True
+A sudden ring echoed through the quiet hallway.,deepseek,api,direct,few,auditory_event,True
+Federal law insures your money at the bank.,claude,api,direct,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,direct,few,financial_sense,True
+A sudden ring echoed through the quiet hallway.,deepseek,api,cot,few,auditory_event,True
+A sudden ring echoed through the quiet hallway.,deepseek,api,cot,few,auditory_event,True
+Federal law insures your money at the bank.,claude,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,cot,few,financial_sense,True
+She paused when she heard a ring coming from the phone.,deepseek,api,direct,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,deepseek,api,direct,few,auditory_event,True
+Federal law insures your money at the bank.,claude,api,cot,few,financial_sense,True
+Federal law insures your money at the bank.,gpt,api,cot,few,financial_sense,True
+She paused when she heard a ring coming from the phone.,deepseek,api,cot,few,auditory_event,True
+She paused when she heard a ring coming from the phone.,deepseek,api,cot,few,auditory_event,True
+He adjusted his grip before releasing the pitch toward home plate.,claude,api,direct,few,physical_motion,True
+He adjusted his grip before releasing the pitch toward home plate.,gpt,api,direct,few,physical_motion,True
+The sharp ring cut through the noise of the crowd.,deepseek,api,direct,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,deepseek,api,direct,few,auditory_event,True
+He adjusted his grip before releasing the pitch toward home plate.,claude,api,direct,few,physical_motion,True
+He adjusted his grip before releasing the pitch toward home plate.,gpt,api,direct,few,physical_motion,True
+The sharp ring cut through the noise of the crowd.,deepseek,api,cot,few,auditory_event,True
+The sharp ring cut through the noise of the crowd.,deepseek,api,cot,few,auditory_event,True
+He adjusted his grip before releasing the pitch toward home plate.,claude,api,cot,few,physical_motion,True
+He adjusted his grip before releasing the pitch toward home plate.,gpt,api,cot,few,physical_motion,True
+Everyone turned at the ring that signaled the end of class.,deepseek,api,direct,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,deepseek,api,direct,few,auditory_event,True
+Extreme flooding has caused the bank to erode over time.,claude,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,cot,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",deepseek,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,direct,few,physical_environment,True
+He adjusted his grip before releasing the pitch toward home plate.,claude,api,cot,few,physical_motion,True
+He adjusted his grip before releasing the pitch toward home plate.,gpt,api,cot,few,physical_motion,True
+Everyone turned at the ring that signaled the end of class.,deepseek,api,cot,few,auditory_event,True
+Everyone turned at the ring that signaled the end of class.,deepseek,api,cot,few,auditory_event,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",claude,api,direct,few,physical_motion,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",gpt,api,direct,few,physical_motion,True
+A ring of stones surrounded the fire pit.,deepseek,api,direct,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,deepseek,api,direct,few,spatial_structure,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",claude,api,direct,few,physical_motion,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",gpt,api,direct,few,physical_motion,True
+A ring of stones surrounded the fire pit.,deepseek,api,cot,few,spatial_structure,True
+A ring of stones surrounded the fire pit.,deepseek,api,cot,few,spatial_structure,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",claude,api,cot,few,physical_motion,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",gpt,api,cot,few,physical_motion,True
+The trees formed a ring around the clearing.,deepseek,api,direct,few,spatial_structure,True
+The trees formed a ring around the clearing.,deepseek,api,direct,few,spatial_structure,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",claude,api,cot,few,physical_motion,True
+"She practiced her pitch repeatedly, trying to improve both speed and accuracy.",gpt,api,cot,few,physical_motion,True
+The trees formed a ring around the clearing.,deepseek,api,cot,few,spatial_structure,True
+The trees formed a ring around the clearing.,deepseek,api,cot,few,spatial_structure,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,claude,api,direct,few,physical_motion,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,gpt,api,direct,few,physical_motion,True
+A dark ring appeared around the stain after it dried.,deepseek,api,direct,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,deepseek,api,direct,few,spatial_structure,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,claude,api,direct,few,physical_motion,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,gpt,api,direct,few,physical_motion,True
+A dark ring appeared around the stain after it dried.,deepseek,api,cot,few,spatial_structure,True
+A dark ring appeared around the stain after it dried.,deepseek,api,cot,few,spatial_structure,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,claude,api,cot,few,physical_motion,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,gpt,api,cot,few,physical_motion,True
+The planet was encircled by a faint ring of dust.,deepseek,api,direct,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,deepseek,api,direct,few,spatial_structure,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,claude,api,cot,few,physical_motion,True
+A sudden gust of wind altered the pitch just before it reached the catcher.,gpt,api,cot,few,physical_motion,True
+The planet was encircled by a faint ring of dust.,deepseek,api,cot,few,spatial_structure,True
+The planet was encircled by a faint ring of dust.,deepseek,api,cot,few,spatial_structure,True
+"His pitch veered slightly to the left, missing the target by inches.",claude,api,direct,few,physical_motion,True
+"His pitch veered slightly to the left, missing the target by inches.",gpt,api,direct,few,physical_motion,True
+He straightened his tie before walking into the interview.,deepseek,api,direct,few,social_formal,True
+He straightened his tie before walking into the interview.,deepseek,api,direct,few,social_formal,True
+I went to the bank to apply for a loan.,deepseek,api,direct,few,financial_sense,True
+I went to the bank to apply for a loan.,deepseek,api,direct,few,financial_sense,True
+Extreme flooding has caused the bank to erode over time.,claude,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,cot,few,physical_environment,True
+"His pitch veered slightly to the left, missing the target by inches.",claude,api,direct,few,physical_motion,True
+"His pitch veered slightly to the left, missing the target by inches.",gpt,api,direct,few,physical_motion,True
+He straightened his tie before walking into the interview.,deepseek,api,cot,few,social_formal,True
+He straightened his tie before walking into the interview.,deepseek,api,cot,few,social_formal,True
+"His pitch veered slightly to the left, missing the target by inches.",claude,api,cot,few,physical_motion,True
+"His pitch veered slightly to the left, missing the target by inches.",gpt,api,cot,few,physical_motion,True
+The silk tie matched the jacket better than the previous one.,deepseek,api,direct,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,deepseek,api,direct,few,social_formal,True
+"His pitch veered slightly to the left, missing the target by inches.",claude,api,cot,few,physical_motion,True
+"His pitch veered slightly to the left, missing the target by inches.",gpt,api,cot,few,physical_motion,True
+The silk tie matched the jacket better than the previous one.,deepseek,api,cot,few,social_formal,True
+The silk tie matched the jacket better than the previous one.,deepseek,api,cot,few,social_formal,True
+The startup refined its pitch to better explain the value of the product.,claude,api,direct,few,business_communication,True
+The startup refined its pitch to better explain the value of the product.,gpt,api,direct,few,business_communication,True
+She bought a new tie as a gift for her father.,deepseek,api,direct,few,social_formal,True
+She bought a new tie as a gift for her father.,deepseek,api,direct,few,social_formal,True
+The startup refined its pitch to better explain the value of the product.,claude,api,direct,few,business_communication,True
+The startup refined its pitch to better explain the value of the product.,gpt,api,direct,few,business_communication,True
+She bought a new tie as a gift for her father.,deepseek,api,cot,few,social_formal,True
+She bought a new tie as a gift for her father.,deepseek,api,cot,few,social_formal,True
+The startup refined its pitch to better explain the value of the product.,claude,api,cot,few,business_communication,True
+The startup refined its pitch to better explain the value of the product.,gpt,api,cot,few,business_communication,True
+His tie was loosened after the long ceremony ended.,deepseek,api,direct,few,social_formal,True
+His tie was loosened after the long ceremony ended.,deepseek,api,direct,few,social_formal,True
+The startup refined its pitch to better explain the value of the product.,claude,api,cot,few,business_communication,True
+The startup refined its pitch to better explain the value of the product.,gpt,api,cot,few,business_communication,True
+His tie was loosened after the long ceremony ended.,deepseek,api,cot,few,social_formal,True
+His tie was loosened after the long ceremony ended.,deepseek,api,cot,few,social_formal,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",claude,api,direct,few,business_communication,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",gpt,api,direct,few,business_communication,True
+The game ended in a tie after overtime.,deepseek,api,direct,few,competitive_event,True
+The game ended in a tie after overtime.,deepseek,api,direct,few,competitive_event,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",claude,api,direct,few,business_communication,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",gpt,api,direct,few,business_communication,True
+The game ended in a tie after overtime.,deepseek,api,cot,few,competitive_event,True
+The game ended in a tie after overtime.,deepseek,api,cot,few,competitive_event,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",claude,api,cot,few,business_communication,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",gpt,api,cot,few,business_communication,True
+Both candidates finished the election in a tie.,deepseek,api,direct,few,competitive_event,True
+Both candidates finished the election in a tie.,deepseek,api,direct,few,competitive_event,True
+I went to the bank to apply for a loan.,deepseek,api,cot,few,financial_sense,True
+I went to the bank to apply for a loan.,deepseek,api,cot,few,financial_sense,True
+Extreme flooding has caused the bank to erode over time.,claude,api,cot,few,physical_environment,True
+Extreme flooding has caused the bank to erode over time.,gpt,api,cot,few,physical_environment,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",claude,api,cot,few,business_communication,True
+"During the meeting, she delivered a clear pitch outlining projected revenue growth.",gpt,api,cot,few,business_communication,True
+Both candidates finished the election in a tie.,deepseek,api,cot,few,competitive_event,True
+Both candidates finished the election in a tie.,deepseek,api,cot,few,competitive_event,True
+Investors listened carefully as the founder began his pitch.,claude,api,direct,few,business_communication,True
+Investors listened carefully as the founder began his pitch.,gpt,api,direct,few,business_communication,True
+The final score resulted in a tie between the teams.,deepseek,api,direct,few,competitive_event,True
+The final score resulted in a tie between the teams.,deepseek,api,direct,few,competitive_event,True
+Investors listened carefully as the founder began his pitch.,claude,api,direct,few,business_communication,True
+Investors listened carefully as the founder began his pitch.,gpt,api,direct,few,business_communication,True
+The final score resulted in a tie between the teams.,deepseek,api,cot,few,competitive_event,True
+The final score resulted in a tie between the teams.,deepseek,api,cot,few,competitive_event,True
+Investors listened carefully as the founder began his pitch.,claude,api,cot,few,business_communication,True
+Investors listened carefully as the founder began his pitch.,gpt,api,cot,few,business_communication,True
+"After hours of debate, the vote produced a tie.",deepseek,api,direct,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",deepseek,api,direct,few,competitive_event,True
+Investors listened carefully as the founder began his pitch.,claude,api,cot,few,business_communication,True
+Investors listened carefully as the founder began his pitch.,gpt,api,cot,few,business_communication,True
+"After hours of debate, the vote produced a tie.",deepseek,api,cot,few,competitive_event,True
+"After hours of debate, the vote produced a tie.",deepseek,api,cot,few,competitive_event,True
+"After feedback from mentors, the team revised the pitch before presenting again.",claude,api,direct,few,business_communication,True
+"After feedback from mentors, the team revised the pitch before presenting again.",gpt,api,direct,few,business_communication,True
+She used a rope to tie the boxes together.,deepseek,api,direct,few,physical_binding,True
+She used a rope to tie the boxes together.,deepseek,api,direct,few,physical_binding,True
+"After feedback from mentors, the team revised the pitch before presenting again.",claude,api,direct,few,business_communication,True
+"After feedback from mentors, the team revised the pitch before presenting again.",gpt,api,direct,few,business_communication,True
+She used a rope to tie the boxes together.,deepseek,api,cot,few,physical_binding,True
+She used a rope to tie the boxes together.,deepseek,api,cot,few,physical_binding,True
+"After feedback from mentors, the team revised the pitch before presenting again.",claude,api,cot,few,business_communication,True
+"After feedback from mentors, the team revised the pitch before presenting again.",gpt,api,cot,few,business_communication,True
+He learned how to tie the knot securely.,deepseek,api,direct,few,physical_binding,True
+He learned how to tie the knot securely.,deepseek,api,direct,few,physical_binding,True
+"After feedback from mentors, the team revised the pitch before presenting again.",claude,api,cot,few,business_communication,True
+"After feedback from mentors, the team revised the pitch before presenting again.",gpt,api,cot,few,business_communication,True
+He learned how to tie the knot securely.,deepseek,api,cot,few,physical_binding,True
+He learned how to tie the knot securely.,deepseek,api,cot,few,physical_binding,True
+She slipped the ring onto her finger before leaving the house.,claude,api,direct,few,personal_adornment,True
+She slipped the ring onto her finger before leaving the house.,gpt,api,direct,few,personal_adornment,True
+They worked together to tie the fence posts in place.,deepseek,api,direct,few,physical_binding,True
+They worked together to tie the fence posts in place.,deepseek,api,direct,few,physical_binding,True
+The bank teller handed me my change.,deepseek,api,direct,few,financial_sense,True
+The bank teller handed me my change.,deepseek,api,direct,few,financial_sense,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",claude,api,direct,few,physical_environment,True
+"Janice and Steve took their family to a picnic, enjoying the breeze near the bank.",gpt,api,direct,few,physical_environment,True
+She slipped the ring onto her finger before leaving the house.,claude,api,direct,few,personal_adornment,True
+She slipped the ring onto her finger before leaving the house.,gpt,api,direct,few,personal_adornment,True
+They worked together to tie the fence posts in place.,deepseek,api,cot,few,physical_binding,True
+They worked together to tie the fence posts in place.,deepseek,api,cot,few,physical_binding,True
+She slipped the ring onto her finger before leaving the house.,claude,api,cot,few,personal_adornment,True
+She slipped the ring onto her finger before leaving the house.,gpt,api,cot,few,personal_adornment,True
+The instructions explained how to tie the cables safely.,deepseek,api,direct,few,physical_binding,True
+The instructions explained how to tie the cables safely.,deepseek,api,direct,few,physical_binding,True
+She slipped the ring onto her finger before leaving the house.,claude,api,cot,few,personal_adornment,True
+She slipped the ring onto her finger before leaving the house.,gpt,api,cot,few,personal_adornment,True
+The instructions explained how to tie the cables safely.,deepseek,api,cot,few,physical_binding,True
+The instructions explained how to tie the cables safely.,deepseek,api,cot,few,physical_binding,True
+He used a file to smooth the sharp edge of the metal.,deepseek,api,direct,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,deepseek,api,direct,few,physical_tool_use,True
+The antique ring was displayed under glass at the museum.,claude,api,direct,few,personal_adornment,True
+The antique ring was displayed under glass at the museum.,gpt,api,direct,few,personal_adornment,True
+He used a file to smooth the sharp edge of the metal.,deepseek,api,cot,few,physical_tool_use,True
+He used a file to smooth the sharp edge of the metal.,deepseek,api,cot,few,physical_tool_use,True
+The antique ring was displayed under glass at the museum.,claude,api,direct,few,personal_adornment,True
+The antique ring was displayed under glass at the museum.,gpt,api,direct,few,personal_adornment,True
+The mechanic reached for a file to remove the burrs.,deepseek,api,direct,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,deepseek,api,direct,few,physical_tool_use,True
+The antique ring was displayed under glass at the museum.,claude,api,cot,few,personal_adornment,True
+The antique ring was displayed under glass at the museum.,gpt,api,cot,few,personal_adornment,True
+The mechanic reached for a file to remove the burrs.,deepseek,api,cot,few,physical_tool_use,True
+The mechanic reached for a file to remove the burrs.,deepseek,api,cot,few,physical_tool_use,True
+The antique ring was displayed under glass at the museum.,claude,api,cot,few,personal_adornment,True
+The antique ring was displayed under glass at the museum.,gpt,api,cot,few,personal_adornment,True
+She ran the file across the surface until it was smooth.,deepseek,api,direct,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,deepseek,api,direct,few,physical_tool_use,True
+He noticed the ring only after the light caught the stone.,claude,api,direct,few,personal_adornment,True
+He noticed the ring only after the light caught the stone.,gpt,api,direct,few,personal_adornment,True
+She ran the file across the surface until it was smooth.,deepseek,api,cot,few,physical_tool_use,True
+She ran the file across the surface until it was smooth.,deepseek,api,cot,few,physical_tool_use,True
+He noticed the ring only after the light caught the stone.,claude,api,direct,few,personal_adornment,True
+He noticed the ring only after the light caught the stone.,gpt,api,direct,few,personal_adornment,False
+She decided to file a complaint with the city office.,deepseek,api,direct,few,administrative_action,True
+She decided to file a complaint with the city office.,deepseek,api,direct,few,administrative_action,True
+He noticed the ring only after the light caught the stone.,claude,api,cot,few,personal_adornment,True
+He noticed the ring only after the light caught the stone.,gpt,api,cot,few,personal_adornment,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",gpt,api,cot,zero,business_communication,False
+"They sat on the bank after withdrawing cash, watching the water flow by.",deepseek,api,cot,zero,physical_environment,True
+"The bank was quiet that morning, aside from the sound of ducks nearby.",deepseek,api,cot,zero,physical_environment,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,zero,business_communication,True
+"He adjusted his pitch slightly, hoping the crowd would respond better.",deepseek,api,cot,few,business_communication,True
+A small ring was the only thing found near the old bell.,deepseek,api,cot,zero,personal_adornment,True
+No one expected the tie to be the most talked-about part of the evening.,deepseek,api,cot,zero,social_formal,True
+No one expected the tie to be the most talked-about part of the evening.,claude,api,cot,few,social_formal,False

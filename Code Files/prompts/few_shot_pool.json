@@ -1,0 +1,310 @@
+{
+  "version": "v1",
+  "policies": {
+    "same_word_cross_sense": {
+      "word_relation": "same_word",
+      "sense_balance": "cross_sense_balanced",
+      "num_examples_by_num_senses": { "2": 4, "3": 3 },
+      "sampling_method": "deterministic_seeded",
+      "exclusions": {"exclude_eval_sentence": true}
+    }
+    ,
+    "cross_word_balanced": {
+      "word_relation": "cross_word",
+      "sense_balance": "balanced",
+      "num_examples_by_num_senses": { "2": 4, "3": 3 },
+      "sampling_method": "deterministic_seeded",
+      "exclusions": {"exclude_eval_sentence": true}
+    }
+  },
+  "examples": [
+    {
+      "word": "bank",
+      "sentence": "She sat by the bank of the river.",
+      "target_word": "bank",
+      "sense_id": "bank_river",
+      "meaning": "the land alongside a river"
+    },
+    {
+      "word": "bank",
+      "sentence": "He deposited money in the bank.",
+      "target_word": "bank",
+      "sense_id": "bank_financial",
+      "meaning": "a financial institution"
+    },
+      {
+  "word": "bank",
+  "sentence": "They ate on the grassy bank overlooking the river.",
+  "target_word": "bank",
+  "sense_id": "bank_river",
+  "meaning": "the land alongside a river"
+},
+{
+  "word": "bank",
+  "sentence": "The floodwaters rose and spilled over the river bank.",
+  "target_word": "bank",
+  "sense_id": "bank_river",
+  "meaning": "the land alongside a river"
+},
+{
+  "word": "bank",
+  "sentence": "She sat by the bank of the river.",
+  "target_word": "bank",
+  "sense_id": "bank_river",
+  "meaning": "the land alongside a river"
+},
+{
+  "word": "bank",
+  "sentence": "She applied for a loan at the local bank.",
+  "target_word": "bank",
+  "sense_id": "bank_financial",
+  "meaning": "a financial institution"
+},
+{
+  "word": "bank",
+  "sentence": "The bank approved his mortgage after reviewing his credit history.",
+  "target_word": "bank",
+  "sense_id": "bank_financial",
+  "meaning": "a financial institution"
+},
+{
+  "word": "bank",
+  "sentence": "He deposited money in the bank.",
+  "target_word": "bank",
+  "sense_id": "bank_financial",
+  "meaning": "a financial institution"
+},
+{
+  "word": "pitch",
+  "sentence": "The baseball player prepared to pitch the ball.",
+  "target_word": "pitch",
+  "sense_id": "pitch_action",
+  "meaning": "to throw something"
+},
+{
+  "word": "pitch",
+  "sentence": "She stepped forward to pitch the stone into the lake.",
+  "target_word": "pitch",
+  "sense_id": "pitch_action",
+  "meaning": "to throw something"
+},
+{
+  "word": "pitch",
+  "sentence": "He had to pitch the package over the fence.",
+  "target_word": "pitch",
+  "sense_id": "pitch_action",
+  "meaning": "to throw something"
+},
+{
+  "word": "pitch",
+  "sentence": "The singer adjusted the pitch of her voice.",
+  "target_word": "pitch",
+  "sense_id": "pitch_sound",
+  "meaning": "the perceived highness or lowness of a sound"
+},
+{
+  "word": "pitch",
+  "sentence": "The violin produced a high pitch during the solo.",
+  "target_word": "pitch",
+  "sense_id": "pitch_sound",
+  "meaning": "the perceived highness or lowness of a sound"
+},
+{
+  "word": "pitch",
+  "sentence": "He struggled to match the pitch of the note.",
+  "target_word": "pitch",
+  "sense_id": "pitch_sound",
+  "meaning": "the perceived highness or lowness of a sound"
+},
+{
+  "word": "ring",
+  "sentence": "She admired the diamond ring on her finger.",
+  "target_word": "ring",
+  "sense_id": "ring_jewelry",
+  "meaning": "a circular band worn as jewelry"
+},
+{
+  "word": "ring",
+  "sentence": "He bought a gold ring for their anniversary.",
+  "target_word": "ring",
+  "sense_id": "ring_jewelry",
+  "meaning": "a circular band worn as jewelry"
+},
+{
+  "word": "ring",
+  "sentence": "The jeweler resized the ring to fit her hand.",
+  "target_word": "ring",
+  "sense_id": "ring_jewelry",
+  "meaning": "a circular band worn as jewelry"
+},
+{
+  "word": "ring",
+  "sentence": "The ring of the church bell echoed across the town.",
+  "target_word": "ring",
+  "sense_id": "ring_sound",
+  "meaning": "a resonant sound"
+},
+{
+  "word": "ring",
+  "sentence": "There was a sharp ring from the alarm clock.",
+  "target_word": "ring",
+  "sense_id": "ring_sound",
+  "meaning": "a resonant sound"
+},
+{
+  "word": "ring",
+  "sentence": "The ring of the hammer striking metal filled the workshop.",
+  "target_word": "ring",
+  "sense_id": "ring_sound",
+  "meaning": "a resonant sound"
+},
+{
+  "word": "ring",
+  "sentence": "A ring of trees surrounded the meadow.",
+  "target_word": "ring",
+  "sense_id": "ring_shape",
+  "meaning": "a circular shape or formation"
+},
+{
+  "word": "ring",
+  "sentence": "They formed a ring around the campfire.",
+  "target_word": "ring",
+  "sense_id": "ring_shape",
+  "meaning": "a circular shape or formation"
+}
+,
+{
+  "word": "ring",
+  "sentence": "The planet was encircled by a faint ring of dust.",
+  "target_word": "ring",
+  "sense_id": "ring_shape",
+  "meaning": "a circular shape or formation"
+},
+{
+  "word": "file",
+  "sentence": "He used a metal file to smooth the rough edge.",
+  "target_word": "file",
+  "sense_id": "file_tool",
+  "meaning": "a tool used for smoothing or shaping material"
+},
+{
+  "word": "file",
+  "sentence": "She grabbed a file from the toolbox to sharpen the blade.",
+  "target_word": "file",
+  "sense_id": "file_tool",
+  "meaning": "a tool used for smoothing or shaping material"
+},
+{
+  "word": "file",
+  "sentence": "The mechanic ran the file along the surface to remove burrs.",
+  "target_word": "file",
+  "sense_id": "file_tool",
+  "meaning": "a tool used for smoothing or shaping material"
+},
+{
+  "word": "file",
+  "sentence": "She decided to file a complaint with the city office.",
+  "target_word": "file",
+  "sense_id": "file_process",
+  "meaning": "to officially submit or record something"
+},
+{
+  "word": "file",
+  "sentence": "They plan to file the paperwork before the deadline.",
+  "target_word": "file",
+  "sense_id": "file_process",
+  "meaning": "to officially submit or record something"
+},
+{
+  "word": "file",
+  "sentence": "He will file his tax return tomorrow.",
+  "target_word": "file",
+  "sense_id": "file_process",
+  "meaning": "to officially submit or record something"
+},
+{
+  "word": "file",
+  "sentence": "She opened the file on her computer to review the report.",
+  "target_word": "file",
+  "sense_id": "file_document",
+  "meaning": "a collection of stored information"
+},
+{
+  "word": "file",
+  "sentence": "The lawyer pulled the case file from the cabinet.",
+  "target_word": "file",
+  "sense_id": "file_document",
+  "meaning": "a collection of stored information"
+},
+{
+  "word": "file",
+  "sentence": "Each employee has a file stored in the archive room.",
+  "target_word": "file",
+  "sense_id": "file_document",
+  "meaning": "a collection of stored information"
+},
+{
+  "word": "tie",
+  "sentence": "He adjusted his tie before the interview.",
+  "target_word": "tie",
+  "sense_id": "tie_apparel",
+  "meaning": "a piece of clothing worn around the neck"
+},
+{
+  "word": "tie",
+  "sentence": "She bought a silk tie for the formal event.",
+  "target_word": "tie",
+  "sense_id": "tie_apparel",
+  "meaning": "a piece of clothing worn around the neck"
+},
+{
+  "word": "tie",
+  "sentence": "The red tie matched his jacket perfectly.",
+  "target_word": "tie",
+  "sense_id": "tie_apparel",
+  "meaning": "a piece of clothing worn around the neck"
+},
+{
+  "word": "tie",
+  "sentence": "The game ended in a tie after overtime.",
+  "target_word": "tie",
+  "sense_id": "tie_score",
+  "meaning": "a contest with equal scores"
+},
+{
+  "word": "tie",
+  "sentence": "The teams were locked in a tie at halftime.",
+  "target_word": "tie",
+  "sense_id": "tie_score",
+  "meaning": "a contest with equal scores"
+},
+{
+  "word": "tie",
+  "sentence": "The championship match resulted in a tie.",
+  "target_word": "tie",
+  "sense_id": "tie_score",
+  "meaning": "a contest with equal scores"
+},
+{
+  "word": "tie",
+  "sentence": "She used a rope to tie the boat to the dock.",
+  "target_word": "tie",
+  "sense_id": "tie_bind",
+  "meaning": "to fasten or secure with a knot"
+},
+{
+  "word": "tie",
+  "sentence": "He had to tie his shoes before leaving the house.",
+  "target_word": "tie",
+  "sense_id": "tie_bind",
+  "meaning": "to fasten or secure with a knot"
+},
+{
+  "word": "tie",
+  "sentence": "They tied the package with string to keep it closed.",
+  "target_word": "tie",
+  "sense_id": "tie_bind",
+  "meaning": "to fasten or secure with a knot"
+}
+  ]
+}

@@ -1,0 +1,14 @@
+[
+
+  {
+    "prompt_id": "tie_apparel_01",
+    "target_word": "tie",
+    "sense_id": "tie_apparel",
+    "gold_sense": "clothing_accessory",
+    "sense_family": "physical_object",
+    "sentence": "No one expected the tie to be the most talked-about part of the evening.",
+    "context_type": "social_formal",
+    "context_length": 14,
+    "context_length_tokens": 16
+  }
+]

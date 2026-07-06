@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "placeholders": {
+    "required": ["sentence", "target_word"],
+    "optional": [
+      "prompt_id",
+      "sense_id",
+      "sense_family",
+      "context_type",
+      "context_length",
+      "context_length_tokens"
+    ]
+  },
+  "response_formats": {
+    "freeform": {
+      "description": "Model answers normally in natural language."
+    },
+    "structured_json": {
+      "description": "Model outputs strict JSON for easier parsing.",
+      "json_schema": {
+        "type": "object",
+        "required": ["meaning", "confidence", "evidence"],
+        "properties": {
+        "meaning": { "type": "string" },
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+        "evidence": { "type": "string" }
+      },
+      "additionalProperties": false
+  }
+}
+  },
+  "prompts": [
+    {
+      "prompt_id": "direct_zero_v1",
+      "prompt_style": "direct",
+      "shot_format": "zero",
+      "version": "v1",
+      "intended_output": "freeform",
+      "prompt_parameters": ["few_shot_block"],
+      "template": "Sentence: \"{sentence}\"\n\nQuestion:\nIn this sentence, what does the word \"{target_word}\" mean?\n\nAnswer:"
+    },
+    {
+      "prompt_id": "cot_zero_v1",
+      "prompt_style": "cot",
+      "shot_format": "zero",
+      "version": "v1",
+      "intended_output": "freeform",
+      "prompt_parameters": ["few_shot_block"],
+      "template": "Sentence: \"{sentence}\"\n\nQuestion:\nExplain your reasoning step by step, then state what the word \"{target_word}\" means in this sentence.\n\nAnswer:"
+    },
+    {
+      "prompt_id": "direct_few_v1",
+      "prompt_style": "direct",
+      "shot_format": "few",
+      "version": "v1",
+      "intended_output": "freeform",
+      "prompt_parameters": ["few_shot_block"],
+      "template": "{few_shot_block}\n\nSentence: \"{sentence}\"\n\nQuestion:\nIn this sentence, what does the word \"{target_word}\" mean?\n\nAnswer:"
+    },
+    {
+      "prompt_id": "cot_few_v1",
+      "prompt_style": "cot",
+      "shot_format": "few",
+      "version": "v1",
+      "intended_output": "freeform",
+      "prompt_parameters": ["few_shot_block"],
+      "template": "{few_shot_block}\n\nSentence: \"{sentence}\"\n\nQuestion:\nExplain your reasoning step by step, then state what the word \"{target_word}\" means in this sentence.\n\nAnswer:"
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "prompt_id": "ring_jewelry_01",
+    "target_word": "ring",
+    "sense_id": "ring_jewelry",
+    "gold_sense": "jewelry_object",
+    "sense_family": "physical_object",
+    "sentence": "She slipped the ring onto her finger before leaving the house.",
+    "context_type": "personal_adornment",
+    "context_length": 11,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "ring_jewelry_02",
+    "target_word": "ring",
+    "sense_id": "ring_jewelry",
+    "gold_sense": "jewelry_object",
+    "sense_family": "physical_object",
+    "sentence": "The antique ring was displayed under glass at the museum.",
+    "context_type": "personal_adornment",
+    "context_length": 10,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "ring_jewelry_03",
+    "target_word": "ring",
+    "sense_id": "ring_jewelry",
+    "gold_sense": "jewelry_object",
+    "sense_family": "physical_object",
+    "sentence": "He noticed the ring only after the light caught the stone.",
+    "context_type": "personal_adornment",
+    "context_length": 11,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "ring_jewelry_04",
+    "target_word": "ring",
+    "sense_id": "ring_jewelry",
+    "gold_sense": "jewelry_object",
+    "sense_family": "physical_object",
+    "sentence": "The ring had been passed down through several generations.",
+    "context_type": "personal_adornment",
+    "context_length": 9,
+    "context_length_tokens": 10
+  },
+  {
+    "prompt_id": "ring_sound_01",
+    "target_word": "ring",
+    "sense_id": "ring_sound",
+    "gold_sense": "auditory_signal",
+    "sense_family": "auditory_event",
+    "sentence": "A sudden ring echoed through the quiet hallway.",
+    "context_type": "auditory_event",
+    "context_length": 8,
+    "context_length_tokens": 9
+  },
+  {
+    "prompt_id": "ring_sound_02",
+    "target_word": "ring",
+    "sense_id": "ring_sound",
+    "gold_sense": "auditory_signal",
+    "sense_family": "auditory_event",
+    "sentence": "She paused when she heard a ring coming from the phone.",
+    "context_type": "auditory_event",
+    "context_length": 11,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "ring_sound_03",
+    "target_word": "ring",
+    "sense_id": "ring_sound",
+    "gold_sense": "auditory_signal",
+    "sense_family": "auditory_event",
+    "sentence": "The sharp ring cut through the noise of the crowd.",
+    "context_type": "auditory_event",
+    "context_length": 10,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "ring_sound_04",
+    "target_word": "ring",
+    "sense_id": "ring_sound",
+    "gold_sense": "auditory_signal",
+    "sense_family": "auditory_event",
+    "sentence": "Everyone turned at the ring that signaled the end of class.",
+    "context_type": "auditory_event",
+    "context_length": 11,
+    "context_length_tokens": 12
+  },
+  {
+    "prompt_id": "ring_shape_01",
+    "target_word": "ring",
+    "sense_id": "ring_shape",
+    "gold_sense": "circular_form",
+    "sense_family": "spatial_form",
+    "sentence": "A ring of stones surrounded the fire pit.",
+    "context_type": "spatial_structure",
+    "context_length": 8,
+    "context_length_tokens": 9
+  },
+  {
+    "prompt_id": "ring_shape_02",
+    "target_word": "ring",
+    "sense_id": "ring_shape",
+    "gold_sense": "circular_form",
+    "sense_family": "spatial_form",
+    "sentence": "The trees formed a ring around the clearing.",
+    "context_type": "spatial_structure",
+    "context_length": 8,
+    "context_length_tokens": 9
+  },
+  {
+    "prompt_id": "ring_shape_03",
+    "target_word": "ring",
+    "sense_id": "ring_shape",
+    "gold_sense": "circular_form",
+    "sense_family": "spatial_form",
+    "sentence": "A dark ring appeared around the stain after it dried.",
+    "context_type": "spatial_structure",
+    "context_length": 10,
+    "context_length_tokens": 11
+  },
+  {
+    "prompt_id": "ring_shape_04",
+    "target_word": "ring",
+    "sense_id": "ring_shape",
+    "gold_sense": "circular_form",
+    "sense_family": "spatial_form",
+    "sentence": "The planet was encircled by a faint ring of dust.",
+    "context_type": "spatial_structure",
+    "context_length": 10,
+    "context_length_tokens": 13
+  }
+]
